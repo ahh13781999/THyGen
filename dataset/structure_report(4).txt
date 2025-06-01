@@ -1,0 +1,233 @@
+=== COMMON SUBFOLDER ANALYSIS REPORT ===
+
+Root directory: ../labelled_logs
+Total parent folders analyzed: 14
+
+SUBFOLDER STATISTICS:
+--------------------------------------------------------------------------------
+Subfolder Name       |  Occurrences |  Total Files
+--------------------------------------------------------------------------------
+Sysmon               |           14 |          720
+Windows_Security     |           14 |          340
+AWS_CloudTrail       |            9 |           75
+Splunk_Audit         |           11 |           61
+M365_Security        |            6 |           56
+Azure_AD             |            5 |           43
+Suricata_Flow        |            2 |           25
+Web_Server_Access_Log |            5 |           21
+Okta                 |            5 |           17
+PaloAlto             |            3 |           11
+ZNK                  |            6 |            9
+Network_Traffic      |            3 |            7
+Exchange_Transport   |            4 |            6
+Splunk_ESCU          |            3 |            6
+Google_Workspace     |            2 |            5
+Splunk_SVD           |            4 |            5
+Windows_DC_Test      |            3 |            5
+EDR                  |            3 |            4
+CrowdStrike          |            2 |            4
+SIEM_Entity          |            1 |            2
+CI_CD                |            1 |            2
+MFA_PingID           |            1 |            1
+Windows_SIP          |            1 |            1
+AttackSim_DNS        |            1 |            1
+Java_AppServer       |            1 |            1
+Magento_Access       |            1 |            1
+IIS_Backdoor_Activity |            1 |            1
+
+
+DETAILED PATH INFORMATION:
+--------------------------------------------------------------------------------
+
+[Sysmon]
+Found in 14 locations with 720 total files:
+  • ../labelled_logs\collection\Sysmon
+  • ../labelled_logs\command-and-control\Sysmon
+  • ../labelled_logs\credential-access\Sysmon
+  • ../labelled_logs\defense-evasion\Sysmon
+  • ../labelled_logs\discovery\Sysmon
+  • ../labelled_logs\execution\Sysmon
+  • ../labelled_logs\exfiltration\Sysmon
+  • ../labelled_logs\impact\Sysmon
+  • ../labelled_logs\initial-access\Sysmon
+  • ../labelled_logs\lateral-movement\Sysmon
+  • ../labelled_logs\persistence\Sysmon
+  • ../labelled_logs\privilege-escalation\Sysmon
+  • ../labelled_logs\reconnaissance\Sysmon
+  • ../labelled_logs\resource-development\Sysmon
+
+[Windows_Security]
+Found in 14 locations with 340 total files:
+  • ../labelled_logs\collection\Windows_Security
+  • ../labelled_logs\command-and-control\Windows_Security
+  • ../labelled_logs\credential-access\Windows_Security
+  • ../labelled_logs\defense-evasion\Windows_Security
+  • ../labelled_logs\discovery\Windows_Security
+  • ../labelled_logs\execution\Windows_Security
+  • ../labelled_logs\exfiltration\Windows_Security
+  • ../labelled_logs\impact\Windows_Security
+  • ../labelled_logs\initial-access\Windows_Security
+  • ../labelled_logs\lateral-movement\Windows_Security
+  • ../labelled_logs\persistence\Windows_Security
+  • ../labelled_logs\privilege-escalation\Windows_Security
+  • ../labelled_logs\reconnaissance\Windows_Security
+  • ../labelled_logs\resource-development\Windows_Security
+
+[AWS_CloudTrail]
+Found in 9 locations with 75 total files:
+  • ../labelled_logs\collection\AWS_CloudTrail
+  • ../labelled_logs\credential-access\AWS_CloudTrail
+  • ../labelled_logs\defense-evasion\AWS_CloudTrail
+  • ../labelled_logs\discovery\AWS_CloudTrail
+  • ../labelled_logs\execution\AWS_CloudTrail
+  • ../labelled_logs\exfiltration\AWS_CloudTrail
+  • ../labelled_logs\impact\AWS_CloudTrail
+  • ../labelled_logs\persistence\AWS_CloudTrail
+  • ../labelled_logs\resource-development\AWS_CloudTrail
+
+[Splunk_Audit]
+Found in 11 locations with 61 total files:
+  • ../labelled_logs\collection\Splunk_Audit
+  • ../labelled_logs\credential-access\Splunk_Audit
+  • ../labelled_logs\defense-evasion\Splunk_Audit
+  • ../labelled_logs\discovery\Splunk_Audit
+  • ../labelled_logs\execution\Splunk_Audit
+  • ../labelled_logs\exfiltration\Splunk_Audit
+  • ../labelled_logs\impact\Splunk_Audit
+  • ../labelled_logs\initial-access\Splunk_Audit
+  • ../labelled_logs\lateral-movement\Splunk_Audit
+  • ../labelled_logs\privilege-escalation\Splunk_Audit
+  • ../labelled_logs\resource-development\Splunk_Audit
+
+[M365_Security]
+Found in 6 locations with 56 total files:
+  • ../labelled_logs\collection\M365_Security
+  • ../labelled_logs\credential-access\M365_Security
+  • ../labelled_logs\defense-evasion\M365_Security
+  • ../labelled_logs\exfiltration\M365_Security
+  • ../labelled_logs\initial-access\M365_Security
+  • ../labelled_logs\persistence\M365_Security
+
+[Azure_AD]
+Found in 5 locations with 43 total files:
+  • ../labelled_logs\collection\Azure_AD
+  • ../labelled_logs\credential-access\Azure_AD
+  • ../labelled_logs\defense-evasion\Azure_AD
+  • ../labelled_logs\discovery\Azure_AD
+  • ../labelled_logs\persistence\Azure_AD
+
+[Suricata_Flow]
+Found in 2 locations with 25 total files:
+  • ../labelled_logs\command-and-control\Suricata_Flow
+  • ../labelled_logs\initial-access\Suricata_Flow
+
+[Web_Server_Access_Log]
+Found in 5 locations with 21 total files:
+  • ../labelled_logs\credential-access\Web_Server_Access_Log
+  • ../labelled_logs\discovery\Web_Server_Access_Log
+  • ../labelled_logs\execution\Web_Server_Access_Log
+  • ../labelled_logs\exfiltration\Web_Server_Access_Log
+  • ../labelled_logs\initial-access\Web_Server_Access_Log
+
+[Okta]
+Found in 5 locations with 17 total files:
+  • ../labelled_logs\credential-access\Okta
+  • ../labelled_logs\defense-evasion\Okta
+  • ../labelled_logs\discovery\Okta
+  • ../labelled_logs\persistence\Okta
+  • ../labelled_logs\resource-development\Okta
+
+[PaloAlto]
+Found in 3 locations with 11 total files:
+  • ../labelled_logs\command-and-control\PaloAlto
+  • ../labelled_logs\execution\PaloAlto
+  • ../labelled_logs\initial-access\PaloAlto
+
+[ZNK]
+Found in 6 locations with 9 total files:
+  • ../labelled_logs\command-and-control\ZNK
+  • ../labelled_logs\credential-access\ZNK
+  • ../labelled_logs\defense-evasion\ZNK
+  • ../labelled_logs\exfiltration\ZNK
+  • ../labelled_logs\initial-access\ZNK
+  • ../labelled_logs\lateral-movement\ZNK
+
+[Network_Traffic]
+Found in 3 locations with 7 total files:
+  • ../labelled_logs\command-and-control\Network_Traffic
+  • ../labelled_logs\exfiltration\Network_Traffic
+  • ../labelled_logs\initial-access\Network_Traffic
+
+[Exchange_Transport]
+Found in 4 locations with 6 total files:
+  • ../labelled_logs\collection\Exchange_Transport
+  • ../labelled_logs\execution\Exchange_Transport
+  • ../labelled_logs\initial-access\Exchange_Transport
+  • ../labelled_logs\persistence\Exchange_Transport
+
+[Splunk_ESCU]
+Found in 3 locations with 6 total files:
+  • ../labelled_logs\credential-access\Splunk_ESCU
+  • ../labelled_logs\defense-evasion\Splunk_ESCU
+  • ../labelled_logs\execution\Splunk_ESCU
+
+[Google_Workspace]
+Found in 2 locations with 5 total files:
+  • ../labelled_logs\credential-access\Google_Workspace
+  • ../labelled_logs\defense-evasion\Google_Workspace
+
+[Splunk_SVD]
+Found in 4 locations with 5 total files:
+  • ../labelled_logs\credential-access\Splunk_SVD
+  • ../labelled_logs\discovery\Splunk_SVD
+  • ../labelled_logs\initial-access\Splunk_SVD
+  • ../labelled_logs\lateral-movement\Splunk_SVD
+
+[Windows_DC_Test]
+Found in 3 locations with 5 total files:
+  • ../labelled_logs\credential-access\Windows_DC_Test
+  • ../labelled_logs\defense-evasion\Windows_DC_Test
+  • ../labelled_logs\execution\Windows_DC_Test
+
+[EDR]
+Found in 3 locations with 4 total files:
+  • ../labelled_logs\command-and-control\EDR
+  • ../labelled_logs\defense-evasion\EDR
+  • ../labelled_logs\execution\EDR
+
+[CrowdStrike]
+Found in 2 locations with 4 total files:
+  • ../labelled_logs\credential-access\CrowdStrike
+  • ../labelled_logs\defense-evasion\CrowdStrike
+
+[SIEM_Entity]
+Found in 1 locations with 2 total files:
+  • ../labelled_logs\credential-access\SIEM_Entity
+
+[CI_CD]
+Found in 1 locations with 2 total files:
+  • ../labelled_logs\persistence\CI_CD
+
+[MFA_PingID]
+Found in 1 locations with 1 total files:
+  • ../labelled_logs\credential-access\MFA_PingID
+
+[Windows_SIP]
+Found in 1 locations with 1 total files:
+  • ../labelled_logs\defense-evasion\Windows_SIP
+
+[AttackSim_DNS]
+Found in 1 locations with 1 total files:
+  • ../labelled_logs\initial-access\AttackSim_DNS
+
+[Java_AppServer]
+Found in 1 locations with 1 total files:
+  • ../labelled_logs\initial-access\Java_AppServer
+
+[Magento_Access]
+Found in 1 locations with 1 total files:
+  • ../labelled_logs\initial-access\Magento_Access
+
+[IIS_Backdoor_Activity]
+Found in 1 locations with 1 total files:
+  • ../labelled_logs\persistence\IIS_Backdoor_Activity
