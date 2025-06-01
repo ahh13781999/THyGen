@@ -249,7 +249,7 @@ if __name__ == "__main__":
     import sys
 
     if len(sys.argv) != 2:
-        print("Usage: python log_organizer.py </path/to/logs>")
+        print("Usage: python script.py </path/to/logs>")
         sys.exit(1)
 
     source_dir = sys.argv[1]
